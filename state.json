@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-05-06T06:51:54.731927+09:00",
+  "last_run": "2026-05-09T11:39:23.453021+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260429",
@@ -24,6 +24,10 @@
       {
         "phrase": "locking eyes",
         "date": "2026-05-06"
+      },
+      {
+        "phrase": "feel the squeeze",
+        "date": "2026-05-09"
       }
     ]
   },
@@ -53,6 +57,12 @@
         "pinyin": "xièxie",
         "category": "인사",
         "date": "2026-05-06"
+      },
+      {
+        "sentence": "不客气",
+        "pinyin": "bù kè qì",
+        "category": "인사",
+        "date": "2026-05-09"
       }
     ],
     "covered_hanzi": [
@@ -71,6 +81,10 @@
       {
         "char": "谢",
         "date": "2026-05-06"
+      },
+      {
+        "char": "不",
+        "date": "2026-05-09"
       }
     ]
   },
@@ -95,6 +109,11 @@
         "url": "https://www.hankyung.com/article/2026050569481",
         "title": "한국인 첫 '30년 IMF맨'…\"오일쇼크보다 지금이 더 위험\"",
         "date": "2026-05-06"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202605084963i",
+        "title": "반도체 이익 공유론에 담긴 위험한 논리 [여기는 논설실]",
+        "date": "2026-05-09"
       }
     ]
   }
