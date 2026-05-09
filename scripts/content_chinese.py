@@ -70,7 +70,7 @@ and complex grammar should be avoided.
 def generate(state: dict, dry_run: bool = False) -> str:
     """중국어 회화 콘텐츠 생성. 반환: 마크다운 문자열."""
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel("gemini-2.0-flash-001")
+    model = genai.GenerativeModel("gemini-2.5-flash")
 
     # state.py에서 카테고리 결정
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

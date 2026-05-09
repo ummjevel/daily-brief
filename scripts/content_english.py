@@ -157,7 +157,7 @@ def should_refresh_episode(state: dict) -> bool:
 def generate(state: dict, dry_run: bool = False) -> str:
     """영어 표현 콘텐츠 생성. 반환: 마크다운 문자열."""
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel("gemini-2.0-flash-001")
+    model = genai.GenerativeModel("gemini-2.5-flash")
 
     episode = None
 
