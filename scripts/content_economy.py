@@ -124,7 +124,7 @@ def parse_json_response(text: str) -> dict:
 def generate(state: dict, dry_run: bool = False) -> str:
     """경제 뉴스 콘텐츠 생성. 반환: 마크다운 문자열."""
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    model = genai.GenerativeModel("gemini-2.0-flash-001")
 
     # 1. RSS fetch
     headlines = fetch_rss()
