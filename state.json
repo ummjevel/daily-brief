@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-05-10T06:33:22.933869+09:00",
+  "last_run": "2026-05-11T06:37:57.864275+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260429",
@@ -32,6 +32,10 @@
       {
         "phrase": "drag on",
         "date": "2026-05-10"
+      },
+      {
+        "phrase": "drags on",
+        "date": "2026-05-11"
       }
     ]
   },
@@ -73,6 +77,12 @@
         "pinyin": "wǎn ān",
         "category": "인사",
         "date": "2026-05-10"
+      },
+      {
+        "sentence": "早上好",
+        "pinyin": "zǎo shàng hǎo",
+        "category": "인사",
+        "date": "2026-05-11"
       }
     ],
     "covered_hanzi": [
@@ -99,6 +109,10 @@
       {
         "char": "安",
         "date": "2026-05-10"
+      },
+      {
+        "char": "早",
+        "date": "2026-05-11"
       }
     ]
   },
@@ -133,6 +147,11 @@
         "url": "https://www.hankyung.com/article/2026050848981",
         "title": "국민연금, '주식 대박'에 돈 쓸어담았는데…경고 나온 이유",
         "date": "2026-05-10"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202605105994i",
+        "title": "GDP '반도체 호황' 반영 못한다?…명목 GDP는 두자릿 수 성장할 듯 [심성미의 매크로 백브리핑]",
+        "date": "2026-05-11"
       }
     ]
   }
