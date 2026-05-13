@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-05-12T06:57:34.765154+09:00",
+  "last_run": "2026-05-14T08:17:40.010216+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260506",
@@ -12,6 +12,10 @@
       {
         "phrase": "feel the squeeze",
         "date": "2026-05-12"
+      },
+      {
+        "phrase": "under way",
+        "date": "2026-05-14"
       }
     ]
   },
@@ -65,6 +69,12 @@
         "pinyin": "Wǒ shì",
         "category": "자기소개",
         "date": "2026-05-12"
+      },
+      {
+        "sentence": "我叫",
+        "pinyin": "Wǒ jiào",
+        "category": "자기소개",
+        "date": "2026-05-14"
       }
     ],
     "covered_hanzi": [
@@ -99,6 +109,10 @@
       {
         "char": "我",
         "date": "2026-05-12"
+      },
+      {
+        "char": "叫",
+        "date": "2026-05-14"
       }
     ]
   },
@@ -143,6 +157,11 @@
         "url": "https://www.hankyung.com/article/2026051190751",
         "title": "獨·日과 달리…한국 저축은행은 중금리 대출 왜 못 늘릴까",
         "date": "2026-05-12"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026051344831",
+        "title": "삼성 '반도체 파업' 초읽기…21년 만에 긴급조정권 발동되나",
+        "date": "2026-05-14"
       }
     ]
   }
