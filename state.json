@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-05-15T06:59:37.300740+09:00",
+  "last_run": "2026-05-16T06:46:24.667318+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260506",
@@ -20,6 +20,10 @@
       {
         "phrase": "break the chain",
         "date": "2026-05-15"
+      },
+      {
+        "phrase": "break my chain",
+        "date": "2026-05-16"
       }
     ]
   },
@@ -85,6 +89,12 @@
         "pinyin": "Wǒ shì xuéshēng",
         "category": "자기소개",
         "date": "2026-05-15"
+      },
+      {
+        "sentence": "我是韩国人",
+        "pinyin": "Wǒ shì Hán guó rén",
+        "category": "자기소개",
+        "date": "2026-05-16"
       }
     ],
     "covered_hanzi": [
@@ -127,6 +137,10 @@
       {
         "char": "学",
         "date": "2026-05-15"
+      },
+      {
+        "char": "是",
+        "date": "2026-05-16"
       }
     ]
   },
@@ -181,6 +195,11 @@
         "url": "https://www.hankyung.com/article/202605157711i",
         "title": "IMF \"韓 부채 지속가능 수준…증가 속도보다 전체 상황 봐야\" [이상은의 워싱턴나우]",
         "date": "2026-05-15"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202605158911i",
+        "title": "트럼프의 '빈 오전'…중국이 노렸던 '샤오미 카드'  [차이나 워치]",
+        "date": "2026-05-16"
       }
     ]
   }
