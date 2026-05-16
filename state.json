@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-05-16T06:46:24.667318+09:00",
+  "last_run": "2026-05-17T06:38:31.675001+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260506",
@@ -24,6 +24,10 @@
       {
         "phrase": "break my chain",
         "date": "2026-05-16"
+      },
+      {
+        "phrase": "break chain",
+        "date": "2026-05-17"
       }
     ]
   },
@@ -95,6 +99,12 @@
         "pinyin": "Wǒ shì Hán guó rén",
         "category": "자기소개",
         "date": "2026-05-16"
+      },
+      {
+        "sentence": "我是老师",
+        "pinyin": "Wǒ shì lǎoshī",
+        "category": "자기소개",
+        "date": "2026-05-17"
       }
     ],
     "covered_hanzi": [
@@ -141,6 +151,10 @@
       {
         "char": "是",
         "date": "2026-05-16"
+      },
+      {
+        "char": "师",
+        "date": "2026-05-17"
       }
     ]
   },
@@ -200,6 +214,11 @@
         "url": "https://www.hankyung.com/article/202605158911i",
         "title": "트럼프의 '빈 오전'…중국이 노렸던 '샤오미 카드'  [차이나 워치]",
         "date": "2026-05-16"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026051598971",
+        "title": "성과급, 한국 사회를 뒤흔들다",
+        "date": "2026-05-17"
       }
     ]
   }
