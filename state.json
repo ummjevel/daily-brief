@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-05-17T06:38:31.675001+09:00",
+  "last_run": "2026-05-18T06:43:45.540133+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260506",
@@ -28,6 +28,10 @@
       {
         "phrase": "break chain",
         "date": "2026-05-17"
+      },
+      {
+        "phrase": "Le Monde",
+        "date": "2026-05-18"
       }
     ]
   },
@@ -105,6 +109,12 @@
         "pinyin": "Wǒ shì lǎoshī",
         "category": "자기소개",
         "date": "2026-05-17"
+      },
+      {
+        "sentence": "很高兴认识你",
+        "pinyin": "Hěn gāo xìng rèn shi nǐ",
+        "category": "자기소개",
+        "date": "2026-05-18"
       }
     ],
     "covered_hanzi": [
@@ -155,6 +165,10 @@
       {
         "char": "师",
         "date": "2026-05-17"
+      },
+      {
+        "char": "高",
+        "date": "2026-05-18"
       }
     ]
   },
@@ -219,6 +233,11 @@
         "url": "https://www.hankyung.com/article/2026051598971",
         "title": "성과급, 한국 사회를 뒤흔들다",
         "date": "2026-05-17"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026051718851",
+        "title": "은행도 2금융권도 외면…중금리 시장은 왜 뿌리를 못내렸나",
+        "date": "2026-05-18"
       }
     ]
   }
