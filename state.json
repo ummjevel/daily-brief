@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-05-20T07:04:32.219743+09:00",
+  "last_run": "2026-05-21T07:19:46.942835+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260513",
@@ -16,6 +16,10 @@
       {
         "phrase": "break the chain",
         "date": "2026-05-20"
+      },
+      {
+        "phrase": "alarming",
+        "date": "2026-05-21"
       }
     ]
   },
@@ -111,6 +115,12 @@
         "pinyin": "yī suì",
         "category": "숫자·나이",
         "date": "2026-05-20"
+      },
+      {
+        "sentence": "他几岁?",
+        "pinyin": "Tā jǐ suì?",
+        "category": "숫자·나이",
+        "date": "2026-05-21"
       }
     ],
     "covered_hanzi": [
@@ -173,6 +183,10 @@
       {
         "char": "一",
         "date": "2026-05-20"
+      },
+      {
+        "char": "几",
+        "date": "2026-05-21"
       }
     ]
   },
@@ -252,6 +266,11 @@
         "url": "https://www.hankyung.com/article/2026051970981",
         "title": "반도체·개미가 낸 세금, 엉뚱한 곳 '돈잔치'",
         "date": "2026-05-20"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026052102051",
+        "title": "노조에 싸늘했던 여론…\"韓경제 볼모 삼나\"",
+        "date": "2026-05-21"
       }
     ]
   }
