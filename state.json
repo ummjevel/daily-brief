@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-05-21T07:19:46.942835+09:00",
+  "last_run": "2026-05-22T07:09:59.163074+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260513",
@@ -20,6 +20,10 @@
       {
         "phrase": "alarming",
         "date": "2026-05-21"
+      },
+      {
+        "phrase": "The Listening Room",
+        "date": "2026-05-22"
       }
     ]
   },
@@ -121,6 +125,12 @@
         "pinyin": "Tā jǐ suì?",
         "category": "숫자·나이",
         "date": "2026-05-21"
+      },
+      {
+        "sentence": "两岁",
+        "pinyin": "liǎng suì",
+        "category": "숫자·나이",
+        "date": "2026-05-22"
       }
     ],
     "covered_hanzi": [
@@ -187,6 +197,10 @@
       {
         "char": "几",
         "date": "2026-05-21"
+      },
+      {
+        "char": "岁",
+        "date": "2026-05-22"
       }
     ]
   },
@@ -271,6 +285,11 @@
         "url": "https://www.hankyung.com/article/2026052102051",
         "title": "노조에 싸늘했던 여론…\"韓경제 볼모 삼나\"",
         "date": "2026-05-21"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026052126091",
+        "title": "이억원, '금가분리' 사실상 폐지 시사",
+        "date": "2026-05-22"
       }
     ]
   }
