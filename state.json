@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-05-22T07:09:59.163074+09:00",
+  "last_run": "2026-05-23T06:56:07.240758+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260513",
@@ -24,6 +24,10 @@
       {
         "phrase": "The Listening Room",
         "date": "2026-05-22"
+      },
+      {
+        "phrase": "Washington Post",
+        "date": "2026-05-23"
       }
     ]
   },
@@ -131,6 +135,12 @@
         "pinyin": "liǎng suì",
         "category": "숫자·나이",
         "date": "2026-05-22"
+      },
+      {
+        "sentence": "三岁",
+        "pinyin": "sān suì",
+        "category": "숫자·나이",
+        "date": "2026-05-23"
       }
     ],
     "covered_hanzi": [
@@ -201,6 +211,10 @@
       {
         "char": "岁",
         "date": "2026-05-22"
+      },
+      {
+        "char": "三",
+        "date": "2026-05-23"
       }
     ]
   },
@@ -290,6 +304,11 @@
         "url": "https://www.hankyung.com/article/2026052126091",
         "title": "이억원, '금가분리' 사실상 폐지 시사",
         "date": "2026-05-22"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026052248641",
+        "title": "\"나라 망한다\"던 1500원이 뉴노멀…'무역 흑자=원화 강세' 공식 깨졌다",
+        "date": "2026-05-23"
       }
     ]
   }
