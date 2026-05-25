@@ -1,41 +1,17 @@
 {
   "version": 1,
-  "last_run": "2026-05-25T06:44:23.428016+09:00",
+  "last_run": "2026-05-26T07:00:15.683500+09:00",
   "english": {
     "current_episode": {
-      "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260513",
-      "title": "Passengers evacuated from hantavirus-affected MV Hondius",
-      "date": "2026-05-19",
-      "fetched_at": "2026-05-19T06:57:39.599490+09:00"
+      "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260520",
+      "title": "Deadly Ebola virus spreads",
+      "date": "2026-05-26",
+      "fetched_at": "2026-05-26T06:59:51.492645+09:00"
     },
     "covered_phrases": [
       {
-        "phrase": "under way",
-        "date": "2026-05-19"
-      },
-      {
-        "phrase": "break the chain",
-        "date": "2026-05-20"
-      },
-      {
-        "phrase": "alarming",
-        "date": "2026-05-21"
-      },
-      {
         "phrase": "The Listening Room",
-        "date": "2026-05-22"
-      },
-      {
-        "phrase": "Washington Post",
-        "date": "2026-05-23"
-      },
-      {
-        "phrase": "erupt",
-        "date": "2026-05-24"
-      },
-      {
-        "phrase": "Ars Technica",
-        "date": "2026-05-25"
+        "date": "2026-05-26"
       }
     ]
   },
@@ -161,6 +137,12 @@
         "pinyin": "Wǔ suì",
         "category": "숫자·나이",
         "date": "2026-05-25"
+      },
+      {
+        "sentence": "这是爸爸",
+        "pinyin": "Zhè shì bàba",
+        "category": "가족",
+        "date": "2026-05-26"
       }
     ],
     "covered_hanzi": [
@@ -243,6 +225,10 @@
       {
         "char": "五",
         "date": "2026-05-25"
+      },
+      {
+        "char": "爸",
+        "date": "2026-05-26"
       }
     ]
   },
@@ -347,6 +333,11 @@
         "url": "https://www.hankyung.com/article/202605245982i",
         "title": "\"삼전·닉스 100조 판 외국인 빌런\"…환율 1520원 눈앞 [김익환의 부처 핸즈업]",
         "date": "2026-05-25"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026052573401",
+        "title": "환율·채권…원·달러 환율, 1500원선 '뉴노멀' 되나",
+        "date": "2026-05-26"
       }
     ]
   }
