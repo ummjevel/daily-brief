@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-05-28T07:25:44.855825+09:00",
+  "last_run": "2026-05-29T07:25:33.139541+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260520",
@@ -20,6 +20,10 @@
       {
         "phrase": "Nothing's off the table",
         "date": "2026-05-28"
+      },
+      {
+        "phrase": "behind the curve",
+        "date": "2026-05-29"
       }
     ]
   },
@@ -163,6 +167,12 @@
         "pinyin": "Zhè shì gēge",
         "category": "가족",
         "date": "2026-05-28"
+      },
+      {
+        "sentence": "这是姐姐",
+        "pinyin": "zhè shì jiějie",
+        "category": "가족",
+        "date": "2026-05-29"
       }
     ],
     "covered_hanzi": [
@@ -257,6 +267,10 @@
       {
         "char": "哥",
         "date": "2026-05-28"
+      },
+      {
+        "char": "姐",
+        "date": "2026-05-29"
       }
     ]
   },
@@ -376,6 +390,11 @@
         "url": "https://www.hankyung.com/article/2026052725331",
         "title": "130년 월가 지킨 다우지수…AI 시대에 위상 흔들린다",
         "date": "2026-05-28"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202605285365i",
+        "title": "'갈 길 명확하다'는 신현송의 경고…자산 포트폴리오 뼈대 바꿔라 [여기는 논설실]",
+        "date": "2026-05-29"
       }
     ]
   }
