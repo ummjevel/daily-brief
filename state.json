@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-05-29T07:25:33.139541+09:00",
+  "last_run": "2026-05-30T07:23:47.831962+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260520",
@@ -24,6 +24,10 @@
       {
         "phrase": "behind the curve",
         "date": "2026-05-29"
+      },
+      {
+        "phrase": "Overwhelming consensus",
+        "date": "2026-05-30"
       }
     ]
   },
@@ -173,6 +177,12 @@
         "pinyin": "zhè shì jiějie",
         "category": "가족",
         "date": "2026-05-29"
+      },
+      {
+        "sentence": "这是弟弟",
+        "pinyin": "Zhè shì dìdi",
+        "category": "가족",
+        "date": "2026-05-30"
       }
     ],
     "covered_hanzi": [
@@ -271,6 +281,10 @@
       {
         "char": "姐",
         "date": "2026-05-29"
+      },
+      {
+        "char": "弟",
+        "date": "2026-05-30"
       }
     ]
   },
@@ -395,6 +409,11 @@
         "url": "https://www.hankyung.com/article/202605285365i",
         "title": "'갈 길 명확하다'는 신현송의 경고…자산 포트폴리오 뼈대 바꿔라 [여기는 논설실]",
         "date": "2026-05-29"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026052974271",
+        "title": "\"금리인상 초반엔 버블, 후반엔 위기\"…비극은 똑같은 얼굴로 왔다",
+        "date": "2026-05-30"
       }
     ]
   }
