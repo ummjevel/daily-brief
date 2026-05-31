@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-05-31T06:48:30.033472+09:00",
+  "last_run": "2026-06-01T06:45:57.562991+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260520",
@@ -32,6 +32,10 @@
       {
         "phrase": "social media and technology",
         "date": "2026-05-31"
+      },
+      {
+        "phrase": "Our World in English",
+        "date": "2026-06-01"
       }
     ]
   },
@@ -193,6 +197,12 @@
         "pinyin": "zhè shì mèi mei",
         "category": "가족",
         "date": "2026-05-31"
+      },
+      {
+        "sentence": "他爱妈妈",
+        "pinyin": "Tā ài māma",
+        "category": "가족",
+        "date": "2026-06-01"
       }
     ],
     "covered_hanzi": [
@@ -299,6 +309,10 @@
       {
         "char": "妹",
         "date": "2026-05-31"
+      },
+      {
+        "char": "他",
+        "date": "2026-06-01"
       }
     ]
   },
@@ -433,6 +447,11 @@
         "url": "https://www.hankyung.com/article/2026052974671",
         "title": "\"반도체 역대급 호황? 남 얘기\"…서민들은 파산 내몰렸다",
         "date": "2026-05-31"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026053191641",
+        "title": "TSMC가 만든 거대 생태계…대만은 이제 '패키징의 나라'",
+        "date": "2026-06-01"
       }
     ]
   }
