@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-06-05T07:16:12.293670+09:00",
+  "last_run": "2026-06-06T07:08:32.821605+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260527",
@@ -24,6 +24,10 @@
       {
         "phrase": "double whammy",
         "date": "2026-06-05"
+      },
+      {
+        "phrase": "climate and the environment",
+        "date": "2026-06-06"
       }
     ]
   },
@@ -215,6 +219,12 @@
         "pinyin": "mǎi dān",
         "category": "음식·식당",
         "date": "2026-06-05"
+      },
+      {
+        "sentence": "请问",
+        "pinyin": "qǐng wèn",
+        "category": "음식·식당",
+        "date": "2026-06-06"
       }
     ],
     "covered_hanzi": [
@@ -341,6 +351,10 @@
       {
         "char": "买",
         "date": "2026-06-05"
+      },
+      {
+        "char": "问",
+        "date": "2026-06-06"
       }
     ]
   },
@@ -500,6 +514,11 @@
         "url": "https://www.hankyung.com/article/2026060481851",
         "title": "환율 급등 초래한 에너지 위기설·美관세…정부 \"현실성 낮다\"",
         "date": "2026-06-05"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202606059697i",
+        "title": "\"내 돈인데 마음대로 못하나\"…미국 주식 거래 꽉 막혔다 [차이나 워치]",
+        "date": "2026-06-06"
       }
     ]
   }
