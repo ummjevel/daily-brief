@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-06-12T07:46:09.525628+09:00",
+  "last_run": "2026-06-13T07:17:53.562816+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260610",
@@ -16,6 +16,10 @@
       {
         "phrase": "put (something or someone) to the test",
         "date": "2026-06-12"
+      },
+      {
+        "phrase": "at play",
+        "date": "2026-06-13"
       }
     ]
   },
@@ -237,6 +241,12 @@
         "pinyin": "míngtiān",
         "category": "시간·날짜",
         "date": "2026-06-12"
+      },
+      {
+        "sentence": "昨天",
+        "pinyin": "zuótiān",
+        "category": "시간·날짜",
+        "date": "2026-06-13"
       }
     ],
     "covered_hanzi": [
@@ -383,6 +393,10 @@
       {
         "char": "明",
         "date": "2026-06-12"
+      },
+      {
+        "char": "昨",
+        "date": "2026-06-13"
       }
     ]
   },
@@ -567,6 +581,11 @@
         "url": "https://www.hankyung.com/article/2026061113941",
         "title": "미무라 아키오 회장 \"저출생 비관 말고…적은 인구로도 활기찬 국가 만들어야\"",
         "date": "2026-06-12"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202606123088i",
+        "title": "통화 정책 사이클 전환에 따른 시장 변화에 주목할 때",
+        "date": "2026-06-13"
       }
     ]
   }
