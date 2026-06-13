@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-06-13T07:17:53.562816+09:00",
+  "last_run": "2026-06-14T06:56:23.453088+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260610",
@@ -20,6 +20,10 @@
       {
         "phrase": "at play",
         "date": "2026-06-13"
+      },
+      {
+        "phrase": "Explore the topic",
+        "date": "2026-06-14"
       }
     ]
   },
@@ -247,6 +251,12 @@
         "pinyin": "zuótiān",
         "category": "시간·날짜",
         "date": "2026-06-13"
+      },
+      {
+        "sentence": "现在",
+        "pinyin": "xiànzài",
+        "category": "시간·날짜",
+        "date": "2026-06-14"
       }
     ],
     "covered_hanzi": [
@@ -397,6 +407,10 @@
       {
         "char": "昨",
         "date": "2026-06-13"
+      },
+      {
+        "char": "在",
+        "date": "2026-06-14"
       }
     ]
   },
@@ -586,6 +600,11 @@
         "url": "https://www.hankyung.com/article/202606123088i",
         "title": "통화 정책 사이클 전환에 따른 시장 변화에 주목할 때",
         "date": "2026-06-13"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026061234587",
+        "title": "李취임 1년 서울 아파트 11% 급등…文보다 더 올랐다 [퇴근길 30초 경제]",
+        "date": "2026-06-14"
       }
     ]
   }
