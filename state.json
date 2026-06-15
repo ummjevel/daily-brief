@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-06-15T07:02:07.371381+09:00",
+  "last_run": "2026-06-16T07:54:26.067038+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260610",
@@ -28,6 +28,10 @@
       {
         "phrase": "put to the test",
         "date": "2026-06-15"
+      },
+      {
+        "phrase": "to the test",
+        "date": "2026-06-16"
       }
     ]
   },
@@ -267,6 +271,12 @@
         "pinyin": "jīnnián",
         "category": "시간·날짜",
         "date": "2026-06-15"
+      },
+      {
+        "sentence": "在这里",
+        "pinyin": "zài zhè lǐ",
+        "category": "위치·방향",
+        "date": "2026-06-16"
       }
     ],
     "covered_hanzi": [
@@ -425,6 +435,10 @@
       {
         "char": "年",
         "date": "2026-06-15"
+      },
+      {
+        "char": "里",
+        "date": "2026-06-16"
       }
     ]
   },
@@ -624,6 +638,11 @@
         "url": "https://www.hankyung.com/article/202606144905i",
         "title": "코스피 덮쳤던 '엔캐리 쇼크' 재현될까…日 금리 인상에 긴장한 증시[심성미의 중앙은행 워치]",
         "date": "2026-06-15"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026061576441",
+        "title": "반도체 '초과 이익'은 혁신의 보상인가, 분배의 몫인가",
+        "date": "2026-06-16"
       }
     ]
   }
