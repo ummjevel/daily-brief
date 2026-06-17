@@ -1,41 +1,17 @@
 {
   "version": 1,
-  "last_run": "2026-06-17T07:47:01.064496+09:00",
+  "last_run": "2026-06-18T07:28:57.563505+09:00",
   "english": {
     "current_episode": {
-      "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260610",
-      "title": "World Cup excitement and concern",
-      "date": "2026-06-11",
-      "fetched_at": "2026-06-11T07:46:02.806088+09:00"
+      "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260617",
+      "title": "US-Iran peace deal",
+      "date": "2026-06-18",
+      "fetched_at": "2026-06-18T07:28:31.825722+09:00"
     },
     "covered_phrases": [
       {
-        "phrase": "come at a cost",
-        "date": "2026-06-11"
-      },
-      {
-        "phrase": "put (something or someone) to the test",
-        "date": "2026-06-12"
-      },
-      {
-        "phrase": "at play",
-        "date": "2026-06-13"
-      },
-      {
-        "phrase": "Explore the topic",
-        "date": "2026-06-14"
-      },
-      {
-        "phrase": "put to the test",
-        "date": "2026-06-15"
-      },
-      {
-        "phrase": "to the test",
-        "date": "2026-06-16"
-      },
-      {
-        "phrase": "El Pais",
-        "date": "2026-06-17"
+        "phrase": "come full circle",
+        "date": "2026-06-18"
       }
     ]
   },
@@ -287,6 +263,12 @@
         "pinyin": "Zài nǎr?",
         "category": "위치·방향",
         "date": "2026-06-17"
+      },
+      {
+        "sentence": "请进",
+        "pinyin": "Qǐng jìn",
+        "category": "위치·방향",
+        "date": "2026-06-18"
       }
     ],
     "covered_hanzi": [
@@ -453,6 +435,10 @@
       {
         "char": "哪",
         "date": "2026-06-17"
+      },
+      {
+        "char": "请",
+        "date": "2026-06-18"
       }
     ]
   },
@@ -662,6 +648,11 @@
         "url": "https://www.hankyung.com/article/202606169596i",
         "title": "급변하는 결제 인프라…자금세탁방지는 어떻게? [태평양의 미래금융]",
         "date": "2026-06-17"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202606183085i",
+        "title": "워시의 첫 FOMC…\"미래 예고 안 한다\" 포워드 가이던스 폐기 [Fed 워치]",
+        "date": "2026-06-18"
       }
     ]
   }
