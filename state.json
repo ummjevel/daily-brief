@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-06-20T06:57:32.035161+09:00",
+  "last_run": "2026-06-21T06:58:45.158155+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260617",
@@ -20,6 +20,10 @@
       {
         "phrase": "tacit",
         "date": "2026-06-20"
+      },
+      {
+        "phrase": "full circle",
+        "date": "2026-06-21"
       }
     ]
   },
@@ -289,6 +293,12 @@
         "pinyin": "xià qù",
         "category": "위치·방향",
         "date": "2026-06-20"
+      },
+      {
+        "sentence": "左边",
+        "pinyin": "zuǒ biān",
+        "category": "위치·방향",
+        "date": "2026-06-21"
       }
     ],
     "covered_hanzi": [
@@ -467,6 +477,10 @@
       {
         "char": "下",
         "date": "2026-06-20"
+      },
+      {
+        "char": "左",
+        "date": "2026-06-21"
       }
     ]
   },
@@ -691,6 +705,11 @@
         "url": "https://www.hankyung.com/article/202606185417i",
         "title": "\"연내 금리 1번 인상?\"…시장 흔든 Fed 점도표의 함정",
         "date": "2026-06-20"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202606197525i",
+        "title": "신현송 총재 \"반도체 호황이 낮은 성장률·중립금리 바꿀 수도\"",
+        "date": "2026-06-21"
       }
     ]
   }
