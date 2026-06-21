@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-06-21T06:58:45.158155+09:00",
+  "last_run": "2026-06-22T07:08:12.284778+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260617",
@@ -24,6 +24,10 @@
       {
         "phrase": "full circle",
         "date": "2026-06-21"
+      },
+      {
+        "phrase": "Our World in English",
+        "date": "2026-06-22"
       }
     ]
   },
@@ -299,6 +303,12 @@
         "pinyin": "zuǒ biān",
         "category": "위치·방향",
         "date": "2026-06-21"
+      },
+      {
+        "sentence": "右边",
+        "pinyin": "Yòu biān",
+        "category": "위치·방향",
+        "date": "2026-06-22"
       }
     ],
     "covered_hanzi": [
@@ -481,6 +491,10 @@
       {
         "char": "左",
         "date": "2026-06-21"
+      },
+      {
+        "char": "右",
+        "date": "2026-06-22"
       }
     ]
   },
@@ -710,6 +724,11 @@
         "url": "https://www.hankyung.com/article/202606197525i",
         "title": "신현송 총재 \"반도체 호황이 낮은 성장률·중립금리 바꿀 수도\"",
         "date": "2026-06-21"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202606218754i",
+        "title": "“평화의 시대 끝났다”…車 대신 미사일 만드는 유럽",
+        "date": "2026-06-22"
       }
     ]
   }
