@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-06-26T07:15:40.130934+09:00",
+  "last_run": "2026-06-27T06:59:58.483776+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260624",
@@ -16,6 +16,10 @@
       {
         "phrase": "Work topic",
         "date": "2026-06-26"
+      },
+      {
+        "phrase": "Al Jazeera",
+        "date": "2026-06-27"
       }
     ]
   },
@@ -321,6 +325,12 @@
         "pinyin": "Yǒu qián",
         "category": "쇼핑·돈",
         "date": "2026-06-26"
+      },
+      {
+        "sentence": "没钱",
+        "pinyin": "méi qián",
+        "category": "쇼핑·돈",
+        "date": "2026-06-27"
       }
     ],
     "covered_hanzi": [
@@ -523,6 +533,10 @@
       {
         "char": "钱",
         "date": "2026-06-26"
+      },
+      {
+        "char": "没",
+        "date": "2026-06-27"
       }
     ]
   },
@@ -777,6 +791,11 @@
         "url": "https://www.hankyung.com/article/2026062586081",
         "title": "물·전기 있지만 인력·생태계가 없다…'호남 반도체 팹' 5대 쟁점",
         "date": "2026-06-26"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202606271098i",
+        "title": "이번엔 '칩플레이션' 논쟁, 반도체 변동성에 대응하려면 [월가백브리핑]",
+        "date": "2026-06-27"
       }
     ]
   }
