@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-06-27T06:59:58.483776+09:00",
+  "last_run": "2026-06-28T06:51:35.011027+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260624",
@@ -20,6 +20,10 @@
       {
         "phrase": "Al Jazeera",
         "date": "2026-06-27"
+      },
+      {
+        "phrase": "The Economist",
+        "date": "2026-06-28"
       }
     ]
   },
@@ -331,6 +335,12 @@
         "pinyin": "méi qián",
         "category": "쇼핑·돈",
         "date": "2026-06-27"
+      },
+      {
+        "sentence": "现金",
+        "pinyin": "xiàn jīn",
+        "category": "쇼핑·돈",
+        "date": "2026-06-28"
       }
     ],
     "covered_hanzi": [
@@ -537,6 +547,10 @@
       {
         "char": "没",
         "date": "2026-06-27"
+      },
+      {
+        "char": "金",
+        "date": "2026-06-28"
       }
     ]
   },
@@ -796,6 +810,11 @@
         "url": "https://www.hankyung.com/article/202606271098i",
         "title": "이번엔 '칩플레이션' 논쟁, 반도체 변동성에 대응하려면 [월가백브리핑]",
         "date": "2026-06-27"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026062607621",
+        "title": "반도체 생산기업 빼고 모두가 피해자",
+        "date": "2026-06-28"
       }
     ]
   }
