@@ -1,41 +1,17 @@
 {
   "version": 1,
-  "last_run": "2026-07-01T07:07:14.699744+09:00",
+  "last_run": "2026-07-02T07:11:38.491420+09:00",
   "english": {
     "current_episode": {
-      "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260624",
-      "title": "Keir Starmer resigns as UK prime minister",
-      "date": "2026-06-25",
-      "fetched_at": "2026-06-25T07:05:36.012927+09:00"
+      "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260701",
+      "title": "Venezuela earthquakes: Search for survivors continues",
+      "date": "2026-07-02",
+      "fetched_at": "2026-07-02T07:11:15.878472+09:00"
     },
     "covered_phrases": [
       {
-        "phrase": "a hard act to follow",
-        "date": "2026-06-25"
-      },
-      {
-        "phrase": "Work topic",
-        "date": "2026-06-26"
-      },
-      {
-        "phrase": "Al Jazeera",
-        "date": "2026-06-27"
-      },
-      {
-        "phrase": "The Economist",
-        "date": "2026-06-28"
-      },
-      {
-        "phrase": "The Listening Room",
-        "date": "2026-06-29"
-      },
-      {
-        "phrase": "Our World in English",
-        "date": "2026-06-30"
-      },
-      {
-        "phrase": "downfall",
-        "date": "2026-07-01"
+        "phrase": "against the odds",
+        "date": "2026-07-02"
       }
     ]
   },
@@ -371,6 +347,12 @@
         "pinyin": "Duì bu qǐ",
         "category": "인사",
         "date": "2026-07-01"
+      },
+      {
+        "sentence": "下午好",
+        "pinyin": "Xiàwǔ hǎo",
+        "category": "인사",
+        "date": "2026-07-02"
       }
     ],
     "covered_hanzi": [
@@ -593,6 +575,10 @@
       {
         "char": "对",
         "date": "2026-07-01"
+      },
+      {
+        "char": "午",
+        "date": "2026-07-02"
       }
     ]
   },
@@ -872,6 +858,11 @@
         "url": "https://www.hankyung.com/article/2026063075251",
         "title": "强달러·중동 원유 의존·서학개미…쌍둥이처럼 닮아가는 원·엔화",
         "date": "2026-07-01"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026070199966",
+        "title": "'환율이 기가 막혀'…수출은 사상 최대인데 대체 왜 [분석+]",
+        "date": "2026-07-02"
       }
     ]
   }
