@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-07-11T06:49:08.174309+09:00",
+  "last_run": "2026-07-12T06:37:45.703401+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260708",
@@ -20,6 +20,10 @@
       {
         "phrase": "star-studded",
         "date": "2026-07-11"
+      },
+      {
+        "phrase": "Sky News",
+        "date": "2026-07-12"
       }
     ]
   },
@@ -409,6 +413,12 @@
         "pinyin": "Wǒ shì yīshēng",
         "category": "자기소개",
         "date": "2026-07-11"
+      },
+      {
+        "sentence": "你是哪国人?",
+        "pinyin": "Nǐ shì nǎ guó rén?",
+        "category": "자기소개",
+        "date": "2026-07-12"
       }
     ],
     "covered_hanzi": [
@@ -667,6 +677,10 @@
       {
         "char": "医",
         "date": "2026-07-11"
+      },
+      {
+        "char": "国",
+        "date": "2026-07-12"
       }
     ]
   },
@@ -991,6 +1005,11 @@
         "url": "https://www.hankyung.com/article/202607056570i",
         "title": "K방산의 다음 10년은…'수출 4위' 넘어 '함께 운용하는 나라'로",
         "date": "2026-07-11"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202607107802i",
+        "title": "고금리 장기화 부작용, 미국 하이일드 주목",
+        "date": "2026-07-12"
       }
     ]
   }
