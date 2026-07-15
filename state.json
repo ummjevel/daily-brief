@@ -1,37 +1,17 @@
 {
   "version": 1,
-  "last_run": "2026-07-15T06:44:47.035768+09:00",
+  "last_run": "2026-07-16T06:45:33.911233+09:00",
   "english": {
     "current_episode": {
-      "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260708",
-      "title": "Taylor Swift marries Travis Kelce at Madison Square Garden",
-      "date": "2026-07-09",
-      "fetched_at": "2026-07-09T06:56:25.618698+09:00"
+      "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260715",
+      "title": "Coffee is good for you",
+      "date": "2026-07-16",
+      "fetched_at": "2026-07-16T06:45:13.372991+09:00"
     },
     "covered_phrases": [
       {
-        "phrase": "pinch me moment",
-        "date": "2026-07-09"
-      },
-      {
-        "phrase": "fill the gap",
-        "date": "2026-07-10"
-      },
-      {
-        "phrase": "star-studded",
-        "date": "2026-07-11"
-      },
-      {
-        "phrase": "Sky News",
-        "date": "2026-07-12"
-      },
-      {
-        "phrase": "filled the gap",
-        "date": "2026-07-14"
-      },
-      {
-        "phrase": "Our Stories",
-        "date": "2026-07-15"
+        "phrase": "latest programmes",
+        "date": "2026-07-16"
       }
     ]
   },
@@ -439,6 +419,12 @@
         "pinyin": "Qī suì",
         "category": "숫자·나이",
         "date": "2026-07-15"
+      },
+      {
+        "sentence": "我八岁",
+        "pinyin": "Wǒ bā suì",
+        "category": "숫자·나이",
+        "date": "2026-07-16"
       }
     ],
     "covered_hanzi": [
@@ -709,6 +695,10 @@
       {
         "char": "七",
         "date": "2026-07-15"
+      },
+      {
+        "char": "八",
+        "date": "2026-07-16"
       }
     ]
   },
@@ -1048,6 +1038,11 @@
         "url": "https://www.hankyung.com/article/2026071449241",
         "title": "반도체 호황에도 가팔라진 고용절벽…'20만 AI 전사' 키운다",
         "date": "2026-07-15"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026071576271",
+        "title": "[단독] 세수 5% 이상 변동 땐 추경한다…국가재정법 개정안 발의",
+        "date": "2026-07-16"
       }
     ]
   }
