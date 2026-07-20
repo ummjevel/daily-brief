@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-07-19T06:39:10.909452+09:00",
+  "last_run": "2026-07-21T06:54:47.304050+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260715",
@@ -24,6 +24,10 @@
       {
         "phrase": "The Standard",
         "date": "2026-07-19"
+      },
+      {
+        "phrase": "Sky News",
+        "date": "2026-07-21"
       }
     ]
   },
@@ -455,6 +459,12 @@
         "pinyin": "Yī jiā yī",
         "category": "숫자·나이",
         "date": "2026-07-19"
+      },
+      {
+        "sentence": "我爱家人",
+        "pinyin": "Wǒ ài jiā rén",
+        "category": "가족",
+        "date": "2026-07-21"
       }
     ],
     "covered_hanzi": [
@@ -741,6 +751,10 @@
       {
         "char": "加",
         "date": "2026-07-19"
+      },
+      {
+        "char": "家",
+        "date": "2026-07-21"
       }
     ]
   },
@@ -1100,6 +1114,11 @@
         "url": "https://www.hankyung.com/article/2026071712481",
         "title": "보호무역에 대응…韓, 중견국 협의체 'FIT-P' 가입",
         "date": "2026-07-19"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026072036351",
+        "title": "누구와 함께할 것인가…'공급망 생태계' 전쟁",
+        "date": "2026-07-21"
       }
     ]
   }
