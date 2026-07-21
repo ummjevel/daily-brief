@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-07-21T06:54:47.304050+09:00",
+  "last_run": "2026-07-22T06:52:11.017335+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260715",
@@ -28,6 +28,10 @@
       {
         "phrase": "Sky News",
         "date": "2026-07-21"
+      },
+      {
+        "phrase": "associated with",
+        "date": "2026-07-22"
       }
     ]
   },
@@ -465,6 +469,12 @@
         "pinyin": "Wǒ ài jiā rén",
         "category": "가족",
         "date": "2026-07-21"
+      },
+      {
+        "sentence": "我有孩子",
+        "pinyin": "Wǒ yǒu háizi",
+        "category": "가족",
+        "date": "2026-07-22"
       }
     ],
     "covered_hanzi": [
@@ -755,6 +765,10 @@
       {
         "char": "家",
         "date": "2026-07-21"
+      },
+      {
+        "char": "有",
+        "date": "2026-07-22"
       }
     ]
   },
@@ -1119,6 +1133,11 @@
         "url": "https://www.hankyung.com/article/2026072036351",
         "title": "누구와 함께할 것인가…'공급망 생태계' 전쟁",
         "date": "2026-07-21"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026072175981",
+        "title": "칩에서 '서버 랙' 단위로…AI 공급망 판도 바뀐다",
+        "date": "2026-07-22"
       }
     ]
   }
