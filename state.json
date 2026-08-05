@@ -1,41 +1,17 @@
 {
   "version": 1,
-  "last_run": "2026-08-05T07:01:32.516725+09:00",
+  "last_run": "2026-08-06T07:03:58.878163+09:00",
   "english": {
     "current_episode": {
-      "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260729",
-      "title": "No more PlayStation discs",
-      "date": "2026-07-30",
-      "fetched_at": "2026-07-30T06:44:48.866475+09:00"
+      "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260805",
+      "title": "Ceuta migrant crisis",
+      "date": "2026-08-06",
+      "fetched_at": "2026-08-06T07:03:30.464740+09:00"
     },
     "covered_phrases": [
       {
-        "phrase": "jump ship",
-        "date": "2026-07-30"
-      },
-      {
-        "phrase": "letting up",
-        "date": "2026-07-31"
-      },
-      {
-        "phrase": "jumping ship",
-        "date": "2026-08-01"
-      },
-      {
-        "phrase": "let up",
-        "date": "2026-08-02"
-      },
-      {
-        "phrase": "latest programmes",
-        "date": "2026-08-03"
-      },
-      {
-        "phrase": "mourn",
-        "date": "2026-08-04"
-      },
-      {
-        "phrase": "a new low",
-        "date": "2026-08-05"
+        "phrase": "push (something) up the agenda",
+        "date": "2026-08-06"
       }
     ]
   },
@@ -563,6 +539,12 @@
         "pinyin": "jǐ hào?",
         "category": "시간·날짜",
         "date": "2026-08-05"
+      },
+      {
+        "sentence": "星期日",
+        "pinyin": "xīng qī rì",
+        "category": "시간·날짜",
+        "date": "2026-08-06"
       }
     ],
     "covered_hanzi": [
@@ -913,6 +895,10 @@
       {
         "char": "号",
         "date": "2026-08-05"
+      },
+      {
+        "char": "日",
+        "date": "2026-08-06"
       }
     ]
   },
@@ -1352,6 +1338,11 @@
         "url": "https://www.hankyung.com/article/2026080448201",
         "title": "\"AI 주도권 확보 시급\"…호남 반도체 전기료도 낮춘다",
         "date": "2026-08-05"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202608057122H",
+        "title": "'김포 6채=동탄 1채'… 경기도 집값 양극화 '역대 최대' [퇴근길 30초 경제]",
+        "date": "2026-08-06"
       }
     ]
   }
