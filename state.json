@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-08-06T07:03:58.878163+09:00",
+  "last_run": "2026-08-07T09:59:53.167373+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260805",
@@ -12,6 +12,10 @@
       {
         "phrase": "push (something) up the agenda",
         "date": "2026-08-06"
+      },
+      {
+        "phrase": "whipped up",
+        "date": "2026-08-07"
       }
     ]
   },
@@ -545,6 +549,12 @@
         "pinyin": "xīng qī rì",
         "category": "시간·날짜",
         "date": "2026-08-06"
+      },
+      {
+        "sentence": "几月？",
+        "pinyin": "Jǐ yuè?",
+        "category": "시간·날짜",
+        "date": "2026-08-07"
       }
     ],
     "covered_hanzi": [
@@ -899,6 +909,10 @@
       {
         "char": "日",
         "date": "2026-08-06"
+      },
+      {
+        "char": "月",
+        "date": "2026-08-07"
       }
     ]
   },
@@ -1343,6 +1357,11 @@
         "url": "https://www.hankyung.com/article/202608057122H",
         "title": "'김포 6채=동탄 1채'… 경기도 집값 양극화 '역대 최대' [퇴근길 30초 경제]",
         "date": "2026-08-06"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202608068810i",
+        "title": "“주52시간 채워도 부족하다”… 30도 폭염 뚫은 용인·평택 '반도체 속도전'",
+        "date": "2026-08-07"
       }
     ]
   }
