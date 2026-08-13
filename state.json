@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-08-13T06:32:50.463731+09:00",
+  "last_run": "2026-08-14T06:35:54.127406+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260812",
@@ -12,6 +12,10 @@
       {
         "phrase": "golden age",
         "date": "2026-08-13"
+      },
+      {
+        "phrase": "latest programmes",
+        "date": "2026-08-14"
       }
     ]
   },
@@ -587,6 +591,12 @@
         "pinyin": "wài miàn",
         "category": "위치·방향",
         "date": "2026-08-13"
+      },
+      {
+        "sentence": "后面",
+        "pinyin": "hòu‧miàn",
+        "category": "위치·방향",
+        "date": "2026-08-14"
       }
     ],
     "covered_hanzi": [
@@ -969,6 +979,10 @@
       {
         "char": "外",
         "date": "2026-08-13"
+      },
+      {
+        "char": "后",
+        "date": "2026-08-14"
       }
     ]
   },
@@ -1448,6 +1462,11 @@
         "url": "https://www.hankyung.com/article/202608092606i",
         "title": "설탕세까지 꺼내면서…'4500원 담배값'은 못 건드는 이유 [권용훈의 트렌드워치]",
         "date": "2026-08-13"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202608130271H",
+        "title": "수도권 23만가구+α공급… 주담대 30조 더 푼다 [퇴근길 30초 경제]",
+        "date": "2026-08-14"
       }
     ]
   }
