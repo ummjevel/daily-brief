@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-08-15T06:13:58.819491+09:00",
+  "last_run": "2026-08-16T06:10:32.073854+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260812",
@@ -20,6 +20,10 @@
       {
         "phrase": "more programmes here",
         "date": "2026-08-15"
+      },
+      {
+        "phrase": "Golden Age",
+        "date": "2026-08-16"
       }
     ]
   },
@@ -607,6 +611,12 @@
         "pinyin": "Qù nà lǐ",
         "category": "위치·방향",
         "date": "2026-08-15"
+      },
+      {
+        "sentence": "旁边",
+        "pinyin": "páng biān",
+        "category": "위치·방향",
+        "date": "2026-08-16"
       }
     ],
     "covered_hanzi": [
@@ -997,6 +1007,10 @@
       {
         "char": "去",
         "date": "2026-08-15"
+      },
+      {
+        "char": "边",
+        "date": "2026-08-16"
       }
     ]
   },
@@ -1486,6 +1500,11 @@
         "url": "https://www.hankyung.com/article/202608152885i",
         "title": "야데니 \"S&P 8450 간다\"VS BoA \"7100으로 내려앉는다\"[월가 백브리핑]",
         "date": "2026-08-15"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026081425271",
+        "title": "빅테크 'AI 빚투' 경쟁에…글로벌 회사채 시장 흔들",
+        "date": "2026-08-16"
       }
     ]
   }
