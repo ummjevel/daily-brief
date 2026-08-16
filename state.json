@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-08-16T06:10:32.073854+09:00",
+  "last_run": "2026-08-17T06:09:13.446084+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260812",
@@ -24,6 +24,10 @@
       {
         "phrase": "Golden Age",
         "date": "2026-08-16"
+      },
+      {
+        "phrase": "flock",
+        "date": "2026-08-17"
       }
     ]
   },
@@ -617,6 +621,12 @@
         "pinyin": "páng biān",
         "category": "위치·방향",
         "date": "2026-08-16"
+      },
+      {
+        "sentence": "很近",
+        "pinyin": "Hěn jìn",
+        "category": "위치·방향",
+        "date": "2026-08-17"
       }
     ],
     "covered_hanzi": [
@@ -1011,6 +1021,10 @@
       {
         "char": "边",
         "date": "2026-08-16"
+      },
+      {
+        "char": "近",
+        "date": "2026-08-17"
       }
     ]
   },
@@ -1505,6 +1519,11 @@
         "url": "https://www.hankyung.com/article/2026081425271",
         "title": "빅테크 'AI 빚투' 경쟁에…글로벌 회사채 시장 흔들",
         "date": "2026-08-16"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202608163924i",
+        "title": "[단독] AI 데이터센터에 구리 수요 급증…남미에서 뜨는 K굴착기",
+        "date": "2026-08-17"
       }
     ]
   }
