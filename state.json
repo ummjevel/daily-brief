@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-08-17T06:09:13.446084+09:00",
+  "last_run": "2026-08-18T06:15:06.707464+09:00",
   "english": {
     "current_episode": {
       "url": "https://www.bbc.co.uk/learningenglish/features/learning-english-from-the-news_2026/260812",
@@ -28,6 +28,10 @@
       {
         "phrase": "flock",
         "date": "2026-08-17"
+      },
+      {
+        "phrase": "knock-off",
+        "date": "2026-08-18"
       }
     ]
   },
@@ -627,6 +631,12 @@
         "pinyin": "Hěn jìn",
         "category": "위치·방향",
         "date": "2026-08-17"
+      },
+      {
+        "sentence": "买东西",
+        "pinyin": "mǎi dōng xi",
+        "category": "쇼핑·돈",
+        "date": "2026-08-18"
       }
     ],
     "covered_hanzi": [
@@ -1025,6 +1035,10 @@
       {
         "char": "近",
         "date": "2026-08-17"
+      },
+      {
+        "char": "东",
+        "date": "2026-08-18"
       }
     ]
   },
@@ -1524,6 +1538,11 @@
         "url": "https://www.hankyung.com/article/202608163924i",
         "title": "[단독] AI 데이터센터에 구리 수요 급증…남미에서 뜨는 K굴착기",
         "date": "2026-08-17"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026081752471",
+        "title": "탐욕·공포의 교차점…금융 거품과 붕괴의 메커니즘",
+        "date": "2026-08-18"
       }
     ]
   }
