@@ -1,6 +1,7 @@
 """Google Calendar 이벤트 생성 클라이언트."""
 
 import os
+import re
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -13,6 +14,37 @@ load_dotenv()
 
 KST = ZoneInfo("Asia/Seoul")
 TOKEN_URI = "https://oauth2.googleapis.com/token"
+
+
+# 캘린더 이벤트 본문은 마크다운을 렌더링하지 않아 `**`, `##` 같은 기호가 그대로
+# 노출된다. 아카이브(GitHub Pages)는 마크다운을 그대로 쓰므로, 변환은 캘린더로
+# 나가는 이 경계에서만 한다.
+def markdown_to_plain(md: str) -> str:
+    """마크다운을 캘린더에서 읽기 좋은 평문으로 변환."""
+    lines = []
+    for line in md.splitlines():
+        # 수평선
+        if re.fullmatch(r"\s*([-*_])\1{2,}\s*", line):
+            lines.append("─" * 24)
+            continue
+        # 헤더 → 기호 접두사 (##까지 대제목, ### 이하 소제목)
+        header = re.match(r"\s*(#{1,6})\s+(.*)", line)
+        if header:
+            prefix = "■ " if len(header.group(1)) <= 2 else "▸ "
+            lines.append(prefix + header.group(2).strip())
+            continue
+        line = re.sub(r"^(\s*)>\s?", r"\1", line)          # 인용 기호 제거
+        line = re.sub(r"^(\s*)[-*+]\s+", r"\1• ", line)    # 불릿 (들여쓰기 유지)
+        lines.append(line)
+
+    text = "\n".join(lines)
+    text = re.sub(r"\[([^\]]+)\]\((https?://[^\s)]+)\)", r"\1 (\2)", text)  # 링크
+    text = re.sub(r"(\*\*|__)(.+?)\1", r"\2", text, flags=re.S)                 # 볼드
+    # 이탤릭은 `*`만 처리한다. `_`는 snake_case 식별자를 망가뜨릴 위험이 크다.
+    text = re.sub(r"(?<![\w*])\*(?!\s)([^*\n]+?)(?<!\s)\*(?![\w*])", r"\1", text)
+    text = re.sub(r"`([^`\n]+)`", r"\1", text)                                    # 인라인 코드
+    text = re.sub(r"\n{3,}", "\n\n", text)                                       # 빈 줄 정리
+    return text.strip()
 
 
 def get_calendar_service():
@@ -34,9 +66,9 @@ def create_event(service, calendar_id: str, title: str, body: str, start_hour: i
     start_dt = datetime(today.year, today.month, today.day, start_hour, start_minute, tzinfo=KST)
     end_dt = start_dt + timedelta(minutes=5)
 
-    description = body
+    description = markdown_to_plain(body)
     if pages_url:
-        description += f"\n\n---\n전체 보기: {pages_url}"
+        description += f"\n\n{'─' * 24}\n전체 보기: {pages_url}"
 
     event = {
         "summary": title,

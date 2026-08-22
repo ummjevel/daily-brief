@@ -2,18 +2,7 @@
   "version": 1,
   "last_run": "2026-08-20T06:14:58.584447+09:00",
   "english": {
-    "current_episode": {
-      "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-from-the-news_2026/260819",
-      "title": "US states call for big changes to Instagram and Facebook as Meta trial begins",
-      "date": "2026-08-20",
-      "fetched_at": "2026-08-20T06:14:30.945819+09:00"
-    },
-    "covered_phrases": [
-      {
-        "phrase": "latest programmes",
-        "date": "2026-08-20"
-      }
-    ]
+    "covered_phrases": []
   },
   "chinese": {
     "start_date": "2026-05-05",

@@ -1,4 +1,4 @@
-"""BBC Learning English 표현 생성: 에피소드 fetch → Claude 변주."""
+"""비즈니스 영어 카드 생성: 엔지니어/AI 트렌드 RSS → Claude 표현 추천."""
 
 import json
 import os
@@ -7,7 +7,7 @@ import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-import requests
+import feedparser
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 
@@ -18,191 +18,128 @@ import llm
 load_dotenv()
 
 KST = ZoneInfo("Asia/Seoul")
-BBC_INDEX_URL = "https://www.bbc.co.uk/learningenglish"
 
-PROMPT = """You are creating a daily English learning card for a Korean learner \
-with intermediate English. The learner already understands basic \
-grammar and vocabulary but wants to expand their range with phrases \
-used in real news.
+# 헤드라인은 표현의 "소재"로만 쓴다. 엔지니어 담론 / 엔터프라이즈 AI 실무 /
+# 업계 동향 세 축을 섞어 하루치 맥락을 만든다.
+FEEDS = [
+    ("Hacker News", "https://news.ycombinator.com/rss"),
+    ("InfoQ AI/ML", "https://feed.infoq.com/ai-ml-data-eng/"),
+    ("TechCrunch AI", "https://techcrunch.com/category/artificial-intelligence/feed/"),
+]
+PER_FEED = 10
+SUMMARY_CHARS = 240
 
-# Source material
-Episode: {episode_title}
-Date: {episode_date}
-Source URL: {episode_url}
+PROMPT = """You are creating a daily business English card for a Korean software \
+engineer who builds AI products (TTS, RAG, OCR, LLM). Their English is \
+intermediate: they read technical English fine, but struggle to sound natural \
+and appropriately assertive in meetings, code reviews, and written updates.
 
-Story summary:
-{story_summary}
+# Today's engineering / AI headlines (context only)
+{headlines_json}
 
-Featured phrases from this episode:
-{featured_phrases_json}
-
-# Already covered (DO NOT pick these)
+# Already covered (DO NOT pick these or close variants)
 {already_covered_list}
 
 # Your task
-1. Pick ONE phrase from the featured phrases that is NOT in the \
-   already-covered list. Prefer phrases that are useful in everyday \
-   English, not just news.
-2. Explain it in Korean.
-3. Provide 3-5 RELATED or SIMILAR phrases (synonyms, alternatives \
-   with different nuance, or phrases used in similar contexts).
-4. Provide 2 short example sentences using the chosen phrase, \
-   showing varied contexts (not just news).
+1. Pick ONE English expression that is genuinely useful in this learner's daily \
+   work — standups, code reviews, design discussions, written updates, or \
+   negotiating scope with stakeholders. Prefer expressions a native engineer \
+   uses constantly but a Korean intermediate speaker would not produce naturally.
+2. Ground it in ONE of today's headlines: show why the expression is natural \
+   when discussing that topic. The headline is only the SITUATION — do not \
+   teach vocabulary lifted from the headline text.
+3. Write all explanations in Korean.
 
 # Output format (Markdown)
-## 오늘의 영어 표현
+## 오늘의 비즈니스 영어
 
-**표현**: "<phrase>"
-**출처**: BBC Learning English — {episode_title} ({episode_date})
+**표현**: "<expression>"
+**상황**: <어떤 업무 상황에서 쓰는지 한 줄>
 
 **뜻**: <한국어 풀이 1-2문장>
 
-**핵심 단어 분해**:
-- **<word1>** — <설명>
-- **<word2>** — <설명>
+**왜 지금**: <오늘 헤드라인 중 하나와 연결 1-2문장. 기사 제목을 그대로 포함>
 
-**원문 문장** (BBC 에피소드에서):
-> "<exact quote from story summary or featured phrase context>"
+**쓰는 법**:
+- <격식 수준과 뉘앙스>
+- <한국어 화자가 흔히 하는 오용, 또는 어색하게 쓰는 대체 표현>
 
-**관련/유사 표현**:
-- **<phrase>** — <뜻 + 뉘앙스 차이>
-- (3-5개)
-
-**미니 예문**:
-1. <example sentence 1>
+**업무 예문**:
+1. [<상황 라벨>] <English sentence>
    → <한국어 번역>
-2. <example sentence 2>
+2. [<상황 라벨>] <English sentence>
    → <한국어 번역>
+3. [<상황 라벨>] <English sentence>
+   → <한국어 번역>
+
+**바꿔 쓸 수 있는 표현**:
+- **<expression>** — <뜻 + 뉘앙스 차이>
+- (3개)
 
 # Strict rules
 - Output ONLY the markdown above, no preamble.
-- All explanations in Korean except the English phrases themselves.
-- Pick phrases useful beyond the news context.
-- The chosen phrase MUST NOT appear in the already-covered list.
+- Korean for all explanations; English only for the expressions and examples.
+- 상황 라벨은 다음 중에서: 스탠드업, 코드리뷰, 디자인 리뷰, 이메일, 1:1, \
+스펙 논의, 장애 대응, 고객 미팅
+- The chosen expression MUST NOT appear in the already-covered list.
+- Do NOT pick bare technical jargon (e.g. "rate limit", "vector database"). \
+Pick expressions that carry tone or intent — hedging, pushing back, \
+prioritizing, clarifying, committing, deferring.
 """
 
 
-def fetch_latest_episode() -> dict:
-    """BBC Learning English에서 최신 에피소드 정보 가져오기."""
-    headers = {"User-Agent": "Mozilla/5.0"}
-
-    # 메인 페이지에서 "learning-english-from-the-news" 에피소드 링크 찾기
-    resp = requests.get(BBC_INDEX_URL, timeout=15, headers=headers)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
-
-    episode_url = None
-    for link in soup.find_all("a", href=True):
-        href = link["href"]
-        if "learning-english-from-the-news" in href:
-            if not href.startswith("http"):
-                href = "https://www.bbc.co.uk" + href
-            episode_url = href
-            break
-
-    if not episode_url:
-        return None
-
-    # 에피소드 페이지 fetch
-    ep_resp = requests.get(episode_url, timeout=15, headers=headers)
-    ep_resp.raise_for_status()
-    ep_soup = BeautifulSoup(ep_resp.text, "html.parser")
-
-    # 제목 추출
-    title_el = ep_soup.find("title")
-    title = title_el.get_text(strip=True) if title_el else "BBC Learning English"
-    # "BBC Learning English - Learning English from the News / " 접두사 제거
-    if "/" in title:
-        title = title.split("/")[-1].strip()
-
-    # 본문/요약 추출
-    summary_el = ep_soup.select_one(".widget-richtext") or ep_soup.select_one("article")
-    summary = summary_el.get_text(separator="\n", strip=True)[:2000] if summary_el else ""
-
-    # 표현 추출 (볼드 텍스트에서 2단어 이상 구문)
-    phrases = []
-    for strong in ep_soup.find_all("strong"):
-        text = strong.get_text(strip=True)
-        # "The story", "Key words" 같은 섹션 헤더 제외
-        skip = ["The story", "Key words and phrases", "BBC News", "The Guardian"]
-        if len(text.split()) >= 2 and len(text) < 60 and text not in skip:
-            phrases.append(text)
-
-    # 중복 제거
-    phrases = list(dict.fromkeys(phrases))
-
-    return {
-        "url": episode_url,
-        "title": title,
-        "date": datetime.now(KST).strftime("%Y-%m-%d"),
-        "summary": summary,
-        "phrases": phrases,
-    }
+def _clean_summary(raw: str) -> str:
+    """RSS 요약에서 HTML 태그를 제거하고 잘라낸다."""
+    if not raw:
+        return ""
+    text = BeautifulSoup(raw, "html.parser").get_text(separator=" ", strip=True)
+    text = re.sub(r"\s+", " ", text)
+    return text[:SUMMARY_CHARS]
 
 
-def should_refresh_episode(state: dict) -> bool:
-    """에피소드를 새로 fetch해야 하는지 판단."""
-    current = state["english"].get("current_episode")
-    if not current:
-        return True
+def fetch_trend_headlines() -> list:
+    """엔지니어/AI 피드에서 헤드라인 수집. 일부 피드 실패는 무시한다."""
+    headlines = []
+    failed = []
 
-    # 7일 이상 지났으면 갱신 시도
-    fetched_at = current.get("fetched_at", "")
-    if not fetched_at:
-        return True
+    for source, url in FEEDS:
+        try:
+            feed = feedparser.parse(url)
+            entries = feed.entries[:PER_FEED]
+            if not entries:
+                failed.append(source)
+                continue
+            for entry in entries:
+                title = entry.get("title", "").strip()
+                if not title:
+                    continue
+                headlines.append({
+                    "source": source,
+                    "title": title,
+                    "summary": _clean_summary(entry.get("summary", "")),
+                })
+        except Exception as e:
+            failed.append(f"{source} ({type(e).__name__})")
 
-    from datetime import date
-    fetched_date = date.fromisoformat(fetched_at[:10])
-    today = datetime.now(KST).date()
-    return (today - fetched_date).days >= 7
+    if failed:
+        print(f"  ⚠ 피드 수집 실패: {', '.join(failed)}", file=sys.stderr)
+
+    return headlines
 
 
 def generate(state: dict, dry_run: bool = False) -> str:
-    """영어 표현 콘텐츠 생성. 반환: 마크다운 문자열."""
-    episode = None
+    """비즈니스 영어 콘텐츠 생성. 반환: 마크다운 문자열."""
+    headlines = fetch_trend_headlines()
+    if not headlines:
+        raise RuntimeError("트렌드 피드에서 헤드라인을 가져오지 못했습니다.")
 
-    # 에피소드 fetch (필요 시)
-    if should_refresh_episode(state):
-        episode = fetch_latest_episode()
-        if episode and not dry_run:
-            state["english"]["current_episode"] = {
-                "url": episode["url"],
-                "title": episode["title"],
-                "date": episode["date"],
-                "fetched_at": datetime.now(KST).isoformat(),
-            }
-            # 새 에피소드면 covered_phrases 리셋
-            state["english"]["covered_phrases"] = []
-
-    # episode가 없으면 (refresh 불필요 또는 fetch 실패) 다시 fetch
-    if not episode:
-        episode = fetch_latest_episode()
-
-    if not episode:
-        current_ep = state["english"].get("current_episode")
-        if not current_ep:
-            raise RuntimeError("BBC 에피소드를 가져올 수 없습니다.")
-        # fallback: state 정보로 Claude에게 자유 생성 요청
-        episode = {
-            "url": current_ep["url"],
-            "title": current_ep["title"],
-            "date": current_ep["date"],
-            "summary": "N/A",
-            "phrases": [],
-        }
-
-    # 이미 다룬 표현 목록
+    # 이미 다룬 표현 목록 (중복 회피)
     covered = [p["phrase"] for p in state["english"]["covered_phrases"]]
     covered_list = "\n".join(f"- {p}" for p in covered) if covered else "(none yet)"
 
-    # Claude 호출
     content = llm.generate(
         PROMPT.format(
-            episode_title=episode["title"],
-            episode_date=episode["date"],
-            episode_url=episode["url"],
-            story_summary=episode.get("summary", "N/A"),
-            featured_phrases_json=json.dumps(episode.get("phrases", []), ensure_ascii=False),
+            headlines_json=json.dumps(headlines, ensure_ascii=False, indent=2),
             already_covered_list=covered_list,
         ),
         model=llm.MODEL_CARD,
@@ -220,7 +157,6 @@ def generate(state: dict, dry_run: bool = False) -> str:
 
 
 if __name__ == "__main__":
-    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     from state import load
     state = load()
     result = generate(state, dry_run=True)

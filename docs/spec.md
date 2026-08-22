@@ -1,6 +1,6 @@
 # 데일리 모닝 브리핑 시스템 — 설계 문서
 
-> 매일 아침 7시 전, 세 가지 학습 콘텐츠(경제 뉴스 / BBC 영어 / 중국어 회화)를 Google Calendar 알림과 GitHub Pages 아카이브로 받아보는 자동화 시스템.
+> 매일 아침 7시 전, 세 가지 학습 콘텐츠(경제 뉴스 / 비즈니스 영어 / 중국어 회화)를 Google Calendar 알림과 GitHub Pages 아카이브로 받아보는 자동화 시스템.
 
 ## 1. 프로젝트 개요
 
@@ -9,7 +9,7 @@
 
 ### 콘텐츠 3종
 1. **경제 뉴스 브리핑** — 한국 경제 뉴스 헤드라인 + 관련 경제 개념 풀이
-2. **BBC Learning English 표현** — BBC "Learning English from the News" 기반, 매일 다른 표현 + 관련/유사 표현
+2. **비즈니스 영어 표현** — 엔지니어/AI 트렌드 헤드라인을 소재로, 업무에서 바로 쓰는 표현 1개 + 상황별 예문 + 대체 표현
 3. **중국어 회화 (초급)** — 일상 기초 회화 한 문장 + 단어별 자세한 풀이 + 한자
 
 ### 핵심 요구사항
@@ -25,7 +25,7 @@
 │ GitHub Actions (cron, KST 06:00 트리거)             │
 │                                                     │
 │   [Economy] RSS → 필터 → 본문 fetch → Claude       │
-│   [English] BBC 페이지 fetch → Claude로 변주       │
+│   [English] 기술 RSS fetch → Claude 표현 추천      │
 │   [Chinese] 카테고리 순회 → Claude 생성            │
 │         ↓                                           │
 │   Calendar API: 이벤트 3개 생성 (06:50/55/07:00)   │
@@ -43,7 +43,7 @@
 | 스케줄러 | GitHub Actions cron (`0 21 * * *` UTC = 06:00 KST) |
 | LLM | Claude (`claude -p` 헤드리스, 구독 계정 인증) — 용도별 모델 분리: haiku(선택) / opus(경제 풀이) / sonnet(학습 카드) |
 | 경제 뉴스 소스 | 한국경제 RSS (`https://www.hankyung.com/feed/economy`) — V1, 단일 소스 |
-| 영어 소스 | BBC Learning English from the News (주간 우려먹기) |
+| 영어 소스 | 기술 RSS 3종 (Hacker News / InfoQ AI·ML / TechCrunch AI) — 표현의 소재로만 사용 |
 | 전달 #1 | Google Calendar API (OAuth refresh token) |
 | 전달 #2 | GitHub Pages (Jekyll, `/docs`) |
 | 상태 관리 | `state.json` (repo commit) |
@@ -59,13 +59,22 @@
 3. 선택된 기사 URL → web fetch → 본문 추출
 4. Claude 호출 #2 (opus): 본문 → 개념 풀이 생성
 
-### 4.2 BBC Learning English 표현
+### 4.2 비즈니스 영어 표현
 
 **처리 흐름**
-- BBC 페이지(이번 주 에피소드) fetch — 일주일에 1회만 갱신
-- `state.json`에 `current_episode` 저장
-- 매일: 같은 에피소드에서 아직 안 다룬 표현 1개 + 관련 표현 3~5개 변주
-- 일주일 안 되도 새 에피소드 발행되면 자동 전환
+- 기술 RSS 3종에서 각 상위 10건 헤드라인 + 요약 수집 (feedparser)
+- Claude 호출 1회 (sonnet): 헤드라인을 *상황 소재*로 삼아 업무 표현 1개 추천
+- `state.json`의 `covered_phrases`로 중복 회피
+
+**설계 의도**
+헤드라인에서 단어를 뽑아 가르치지 않는다. 헤드라인은 "이런 논의를 할 때"라는
+상황만 제공하고, 실제로 가르치는 것은 톤과 의도를 담은 표현(반박, 완곡, 우선순위
+조정, 유보 등)이다. 순수 기술 용어("rate limit" 등)는 프롬프트에서 금지한다.
+
+**폐기된 방식 (BBC 스크래핑)**
+BBC "Learning English from the News" 페이지의 `<strong>` 태그를 긁어 표현을
+추출했으나, 페이지 하단 안내 문구가 학습 표현으로 뽑히는 구조적 결함이 있었고
+(`"latest programmes"`가 실제로 저장됨) 소재가 업무 맥락과 맞지 않아 폐기.
 
 ### 4.3 중국어 회화 (초급)
 
@@ -136,14 +145,8 @@ morning-brief/
   "version": 1,
   "last_run": "2026-05-05T06:00:12+09:00",
   "english": {
-    "current_episode": {
-      "url": "https://www.bbc.co.uk/learningenglish/...",
-      "title": "...",
-      "date": "2026-03-04",
-      "fetched_at": "2026-05-05T06:00:12+09:00"
-    },
     "covered_phrases": [
-      {"phrase": "turned out to vote", "date": "2026-05-05"}
+      {"phrase": "push back on ~", "date": "2026-05-05"}
     ]
   },
   "chinese": {
@@ -205,7 +208,7 @@ morning-brief/
 - 전달: Google Calendar + GitHub Pages
 - 스케줄러: GitHub Actions
 - LLM: Claude (구독 계정 인증, `claude -p`)
-- 영어: BBC Learning English from the News (주간 우려먹기)
+- 영어: 기술 RSS 3종을 소재로 한 비즈니스 영어 (개인 프로필 없이 `covered_phrases`로만 중복 회피)
 - 중국어: 8주 카테고리 커리큘럼 순환
 - 경제: 2단계 처리 (RSS 필터 → 본문 fetch → 풀이)
 - 경제 소스 V1: 한국경제 RSS 단일

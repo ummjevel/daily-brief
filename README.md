@@ -5,7 +5,7 @@
 ## 콘텐츠
 
 1. **경제 뉴스 브리핑** — 한국경제 RSS → Claude 개념 풀이
-2. **BBC Learning English 표현** — 주간 에피소드에서 매일 다른 표현 변주
+2. **비즈니스 영어 표현** — 엔지니어/AI 트렌드 RSS를 소재로 업무 표현 추천
 3. **중국어 회화 (초급)** — 8주 카테고리 커리큘럼 순환
 
 ## LLM
@@ -19,6 +19,13 @@ Anthropic API 키 대신 **Claude 구독 계정 인증**을 쓴다 (`claude -p` 
 | `CLAUDE_MODEL_EXPLAIN` | `claude-opus-5` | 경제 개념 풀이 (품질 우선) |
 | `CLAUDE_MODEL_CARD` | `claude-sonnet-5` | 영어/중국어 학습 카드 |
 | `CLAUDE_TIMEOUT_SEC` | `300` | 호출당 타임아웃 |
+
+## 전달 포맷
+
+콘텐츠는 마크다운으로 생성해 GitHub Pages 아카이브에 그대로 저장한다.
+Google Calendar 이벤트 본문은 마크다운을 렌더링하지 않으므로,
+`gcal.markdown_to_plain()`이 캘린더로 나가는 경계에서만 평문으로 변환한다
+(`**` 제거, `##` → `■`, `-` → `•`).
 
 ## 사전 수동 작업 (1회)
 
