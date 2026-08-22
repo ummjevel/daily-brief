@@ -24,9 +24,9 @@
 ┌─────────────────────────────────────────────────────┐
 │ GitHub Actions (cron, KST 06:00 트리거)             │
 │                                                     │
-│   [Economy] RSS → 필터 → 본문 fetch → Gemini       │
-│   [English] BBC 페이지 fetch → Gemini로 변주       │
-│   [Chinese] 카테고리 순회 → Gemini 생성            │
+│   [Economy] RSS → 필터 → 본문 fetch → Claude       │
+│   [English] BBC 페이지 fetch → Claude로 변주       │
+│   [Chinese] 카테고리 순회 → Claude 생성            │
 │         ↓                                           │
 │   Calendar API: 이벤트 3개 생성 (06:50/55/07:00)   │
 │   Markdown: docs/posts/YYYY-MM-DD.md commit        │
@@ -41,7 +41,7 @@
 | 레이어 | 선택 |
 |---|---|
 | 스케줄러 | GitHub Actions cron (`0 21 * * *` UTC = 06:00 KST) |
-| LLM | Gemini Flash (무료 티어) |
+| LLM | Claude (`claude -p` 헤드리스, 구독 계정 인증) — 용도별 모델 분리: haiku(선택) / opus(경제 풀이) / sonnet(학습 카드) |
 | 경제 뉴스 소스 | 한국경제 RSS (`https://www.hankyung.com/feed/economy`) — V1, 단일 소스 |
 | 영어 소스 | BBC Learning English from the News (주간 우려먹기) |
 | 전달 #1 | Google Calendar API (OAuth refresh token) |
@@ -55,9 +55,9 @@
 
 **처리 흐름 (2단계)**
 1. RSS fetch → 50개 헤드라인
-2. Gemini 호출 #1: 학습 가치 높은 1개 선택 (백업 1개 포함)
+2. Claude 호출 #1 (haiku): 학습 가치 높은 1개 선택 (백업 1개 포함)
 3. 선택된 기사 URL → web fetch → 본문 추출
-4. Gemini 호출 #2: 본문 → 개념 풀이 생성
+4. Claude 호출 #2 (opus): 본문 → 개념 풀이 생성
 
 ### 4.2 BBC Learning English 표현
 
@@ -178,7 +178,7 @@ morning-brief/
 |---|---|
 | GitHub Actions (public repo) | $0 |
 | GitHub Pages (public repo) | $0 |
-| Gemini Flash API (무료 티어) | $0 |
+| Claude (구독 계정 인증, 구독 쿼터 사용) | $0 (별도 과금 없음) |
 | Google Calendar API | $0 |
 | **합계** | **$0** |
 
@@ -187,12 +187,12 @@ morning-brief/
 1. GCP 프로젝트 생성
 2. Calendar API enable
 3. OAuth 2.0 클라이언트 ID 생성 (Desktop app)
-4. Gemini API key 발급 (Google AI Studio)
+4. `npm i -g @anthropic-ai/claude-code` → `claude auth login` → `claude setup-token` (CI용 장기 토큰 발급)
 5. Google Calendar에 새 캘린더 "Morning Brief" 생성, `calendarId` 복사
 6. 로컬에서 `auth/get_refresh_token.py` 실행 → 브라우저 동의 → refresh token 획득
 7. GitHub repo 생성 (public)
 8. GitHub Secrets 등록:
-   - `GEMINI_API_KEY`
+   - `CLAUDE_CODE_OAUTH_TOKEN`
    - `GOOGLE_CLIENT_ID`
    - `GOOGLE_CLIENT_SECRET`
    - `GOOGLE_REFRESH_TOKEN`
@@ -204,7 +204,7 @@ morning-brief/
 ### 결정됨
 - 전달: Google Calendar + GitHub Pages
 - 스케줄러: GitHub Actions
-- LLM: Gemini Flash
+- LLM: Claude (구독 계정 인증, `claude -p`)
 - 영어: BBC Learning English from the News (주간 우려먹기)
 - 중국어: 8주 카테고리 커리큘럼 순환
 - 경제: 2단계 처리 (RSS 필터 → 본문 fetch → 풀이)

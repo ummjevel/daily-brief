@@ -1,4 +1,4 @@
-"""중국어 회화 콘텐츠 생성: 카테고리 순회 → Gemini 생성."""
+"""중국어 회화 콘텐츠 생성: 카테고리 순회 → Claude 생성."""
 
 import os
 import re
@@ -6,8 +6,11 @@ import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-import google.generativeai as genai
 from dotenv import load_dotenv
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+import llm
 
 load_dotenv()
 
@@ -69,11 +72,7 @@ and complex grammar should be avoided.
 
 def generate(state: dict, dry_run: bool = False) -> str:
     """중국어 회화 콘텐츠 생성. 반환: 마크다운 문자열."""
-    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel("gemini-2.5-flash")
-
     # state.py에서 카테고리 결정
-    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     from state import get_chinese_category
     category = get_chinese_category(state)
 
@@ -84,13 +83,15 @@ def generate(state: dict, dry_run: bool = False) -> str:
     covered_sentences_str = "\n".join(f"- {s}" for s in covered_sentences) if covered_sentences else "(none yet)"
     covered_hanzi_str = ", ".join(covered_hanzi) if covered_hanzi else "(none yet)"
 
-    # Gemini 호출
-    resp = model.generate_content(PROMPT.format(
-        category=category,
-        already_covered_sentences=covered_sentences_str,
-        already_covered_hanzi=covered_hanzi_str,
-    ))
-    content = resp.text.strip()
+    # Claude 호출
+    content = llm.generate(
+        PROMPT.format(
+            category=category,
+            already_covered_sentences=covered_sentences_str,
+            already_covered_hanzi=covered_hanzi_str,
+        ),
+        model=llm.MODEL_CARD,
+    )
 
     # state 갱신: 문장, 한자 추출
     if not dry_run:

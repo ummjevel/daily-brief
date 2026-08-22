@@ -1,4 +1,4 @@
-"""경제 뉴스 브리핑 생성: RSS → Gemini 헤드라인 선택 → 본문 fetch → Gemini 풀이."""
+"""경제 뉴스 브리핑 생성: RSS → Claude 헤드라인 선택 → 본문 fetch → Claude 풀이."""
 
 import json
 import os
@@ -6,10 +6,13 @@ import re
 import sys
 
 import feedparser
-import google.generativeai as genai
 import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+import llm
 
 load_dotenv()
 
@@ -115,26 +118,32 @@ def fetch_article_body(url: str) -> str:
 
 
 def parse_json_response(text: str) -> dict:
-    """Gemini 응답에서 JSON 파싱 (마크다운 펜스 제거)."""
+    """LLM 응답에서 JSON 파싱 (마크다운 펜스와 앞뒤 잡소리 제거)."""
     cleaned = re.sub(r"```json\s*", "", text)
-    cleaned = re.sub(r"```\s*", "", cleaned)
-    return json.loads(cleaned.strip())
+    cleaned = re.sub(r"```\s*", "", cleaned).strip()
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError:
+        # 앞뒤에 설명 문장이 붙은 경우: 첫 { 부터 마지막 } 까지만 잘라낸다
+        start, end = cleaned.find("{"), cleaned.rfind("}")
+        if start == -1 or end <= start:
+            raise
+        return json.loads(cleaned[start:end + 1])
 
 
 def generate(state: dict, dry_run: bool = False) -> str:
     """경제 뉴스 콘텐츠 생성. 반환: 마크다운 문자열."""
-    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel("gemini-2.5-flash")
-
     # 1. RSS fetch
     headlines = fetch_rss()
     if not headlines:
         raise RuntimeError("RSS에서 헤드라인을 가져오지 못했습니다.")
 
-    # 2. Gemini: 헤드라인 선택
+    # 2. Claude: 헤드라인 선택 (단순 판별이므로 가벼운 모델)
     headlines_json = json.dumps(headlines, ensure_ascii=False)
-    resp = model.generate_content(PROMPT_SELECT.format(headlines_json=headlines_json))
-    selection = parse_json_response(resp.text)
+    selection = parse_json_response(llm.generate(
+        PROMPT_SELECT.format(headlines_json=headlines_json),
+        model=llm.MODEL_SELECT,
+    ))
 
     selected_url = selection["selected_url"]
     selected_title = selection["selected_title"]
@@ -161,18 +170,20 @@ def generate(state: dict, dry_run: bool = False) -> str:
         else:
             raise
 
-    # 4. Gemini: 본문 → 개념 풀이
+    # 4. Claude: 본문 → 개념 풀이 (품질이 가장 중요한 부분이므로 상위 모델)
     from datetime import datetime
     from zoneinfo import ZoneInfo
     today = datetime.now(ZoneInfo("Asia/Seoul")).strftime("%Y-%m-%d")
 
-    resp = model.generate_content(PROMPT_EXPLAIN.format(
-        title=selected_title,
-        date=today,
-        url=selected_url,
-        body=body,
-    ))
-    content = resp.text.strip()
+    content = llm.generate(
+        PROMPT_EXPLAIN.format(
+            title=selected_title,
+            date=today,
+            url=selected_url,
+            body=body,
+        ),
+        model=llm.MODEL_EXPLAIN,
+    )
 
     # state 갱신
     if not dry_run:

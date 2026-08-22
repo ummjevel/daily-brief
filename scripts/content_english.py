@@ -1,4 +1,4 @@
-"""BBC Learning English 표현 생성: 에피소드 fetch → Gemini 변주."""
+"""BBC Learning English 표현 생성: 에피소드 fetch → Claude 변주."""
 
 import json
 import os
@@ -7,10 +7,13 @@ import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-import google.generativeai as genai
 import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+import llm
 
 load_dotenv()
 
@@ -156,9 +159,6 @@ def should_refresh_episode(state: dict) -> bool:
 
 def generate(state: dict, dry_run: bool = False) -> str:
     """영어 표현 콘텐츠 생성. 반환: 마크다운 문자열."""
-    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel("gemini-2.5-flash")
-
     episode = None
 
     # 에피소드 fetch (필요 시)
@@ -182,7 +182,7 @@ def generate(state: dict, dry_run: bool = False) -> str:
         current_ep = state["english"].get("current_episode")
         if not current_ep:
             raise RuntimeError("BBC 에피소드를 가져올 수 없습니다.")
-        # fallback: state 정보로 Gemini에게 자유 생성 요청
+        # fallback: state 정보로 Claude에게 자유 생성 요청
         episode = {
             "url": current_ep["url"],
             "title": current_ep["title"],
@@ -195,16 +195,18 @@ def generate(state: dict, dry_run: bool = False) -> str:
     covered = [p["phrase"] for p in state["english"]["covered_phrases"]]
     covered_list = "\n".join(f"- {p}" for p in covered) if covered else "(none yet)"
 
-    # Gemini 호출
-    resp = model.generate_content(PROMPT.format(
-        episode_title=episode["title"],
-        episode_date=episode["date"],
-        episode_url=episode["url"],
-        story_summary=episode.get("summary", "N/A"),
-        featured_phrases_json=json.dumps(episode.get("phrases", []), ensure_ascii=False),
-        already_covered_list=covered_list,
-    ))
-    content = resp.text.strip()
+    # Claude 호출
+    content = llm.generate(
+        PROMPT.format(
+            episode_title=episode["title"],
+            episode_date=episode["date"],
+            episode_url=episode["url"],
+            story_summary=episode.get("summary", "N/A"),
+            featured_phrases_json=json.dumps(episode.get("phrases", []), ensure_ascii=False),
+            already_covered_list=covered_list,
+        ),
+        model=llm.MODEL_CARD,
+    )
 
     # 사용된 표현 추출 (출력에서 "표현": 뒤의 값)
     phrase_match = re.search(r'\*\*표현\*\*:\s*"([^"]+)"', content)
