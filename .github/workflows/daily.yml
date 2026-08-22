@@ -2,7 +2,9 @@ name: Daily Morning Brief
 
 on:
   schedule:
-    - cron: '0 21 * * *'  # UTC 21:00 = KST 06:00
+    # UTC 21:00 = 다음 날 KST 06:00. 요일도 UTC 기준이라 한 칸 밀린다:
+    # UTC 일~목(0-4) = KST 월~금. 주말에는 돌지 않는다.
+    - cron: '0 21 * * 0-4'
   workflow_dispatch:  # 수동 트리거 가능
 
 jobs:
