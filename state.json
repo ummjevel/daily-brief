@@ -1,11 +1,15 @@
 {
   "version": 1,
-  "last_run": "2026-08-22T14:10:51.684438+09:00",
+  "last_run": "2026-08-24T06:14:24.306421+09:00",
   "english": {
     "covered_phrases": [
       {
         "phrase": "push back on",
         "date": "2026-08-22"
+      },
+      {
+        "phrase": "I want to flag...",
+        "date": "2026-08-24"
       }
     ]
   },
@@ -641,6 +645,12 @@
         "pinyin": "dǎ zhé",
         "category": "쇼핑·돈",
         "date": "2026-08-22"
+      },
+      {
+        "sentence": "找钱",
+        "pinyin": "zhǎo qián",
+        "category": "쇼핑·돈",
+        "date": "2026-08-24"
       }
     ],
     "covered_hanzi": [
@@ -1063,6 +1073,10 @@
       {
         "char": "打",
         "date": "2026-08-22"
+      },
+      {
+        "char": "找",
+        "date": "2026-08-24"
       }
     ]
   },
@@ -1592,6 +1606,11 @@
         "url": "https://www.hankyung.com/article/202608214399i",
         "title": "美·中 장기채 금리 디커플링… \"AI 소모전 승패 가를 것\"",
         "date": "2026-08-22"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026082371251",
+        "title": "'빚 1300조' 韓도 불안…\"고령화 대비 상환 나서야\"",
+        "date": "2026-08-24"
       }
     ]
   }
