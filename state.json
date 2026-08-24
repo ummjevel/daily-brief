@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-08-24T06:14:24.306421+09:00",
+  "last_run": "2026-08-25T06:22:03.374630+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -10,6 +10,10 @@
       {
         "phrase": "I want to flag...",
         "date": "2026-08-24"
+      },
+      {
+        "phrase": "let's table that",
+        "date": "2026-08-25"
       }
     ]
   },
@@ -651,6 +655,12 @@
         "pinyin": "zhǎo qián",
         "category": "쇼핑·돈",
         "date": "2026-08-24"
+      },
+      {
+        "sentence": "好久不见",
+        "pinyin": "hǎojiǔ bújiàn",
+        "category": "인사",
+        "date": "2026-08-25"
       }
     ],
     "covered_hanzi": [
@@ -1077,6 +1087,10 @@
       {
         "char": "找",
         "date": "2026-08-24"
+      },
+      {
+        "char": "久",
+        "date": "2026-08-25"
       }
     ]
   },
@@ -1611,6 +1625,11 @@
         "url": "https://www.hankyung.com/article/2026082371251",
         "title": "'빚 1300조' 韓도 불안…\"고령화 대비 상환 나서야\"",
         "date": "2026-08-24"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026082495551",
+        "title": "60대 23만개 늘 때, 20대는 7만개 감소…일자리 양극화 심화",
+        "date": "2026-08-25"
       }
     ]
   }
