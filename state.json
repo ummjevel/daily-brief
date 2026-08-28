@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-08-27T09:23:06.470907+09:00",
+  "last_run": "2026-08-28T14:03:27.477790+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -22,6 +22,10 @@
       {
         "phrase": "get ahead of this",
         "date": "2026-08-27"
+      },
+      {
+        "phrase": "Let's timebox this.",
+        "date": "2026-08-28"
       }
     ]
   },
@@ -681,6 +685,12 @@
         "pinyin": "wǎn shàng hǎo",
         "category": "인사",
         "date": "2026-08-27"
+      },
+      {
+        "sentence": "慢走",
+        "pinyin": "Màn zǒu",
+        "category": "인사",
+        "date": "2026-08-28"
       }
     ],
     "covered_hanzi": [
@@ -1119,6 +1129,10 @@
       {
         "char": "晚",
         "date": "2026-08-27"
+      },
+      {
+        "char": "走",
+        "date": "2026-08-28"
       }
     ]
   },
@@ -1668,6 +1682,11 @@
         "url": "https://www.hankyung.com/article/2026082754027",
         "title": "7·8월 이어 기준금리 오를까…한은 오늘 드디어 결정",
         "date": "2026-08-27"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202608288101i",
+        "title": "금리 연속 인상에도 시장은 웃었다…신현송의 '도비시 하이크(dovish hike)' [여기는 논설실]",
+        "date": "2026-08-28"
       }
     ]
   }
