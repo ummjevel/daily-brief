@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-09-02T07:55:47.278269+09:00",
+  "last_run": "2026-09-03T07:56:45.501551+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -38,6 +38,10 @@
       {
         "phrase": "I'd rather we not X until Y",
         "date": "2026-09-02"
+      },
+      {
+        "phrase": "Just to sanity-check...",
+        "date": "2026-09-03"
       }
     ]
   },
@@ -721,6 +725,12 @@
         "pinyin": "wǒ de míngzi",
         "category": "자기소개",
         "date": "2026-09-02"
+      },
+      {
+        "sentence": "我姓金",
+        "pinyin": "Wǒ xìng Jīn",
+        "category": "자기소개",
+        "date": "2026-09-03"
       }
     ],
     "covered_hanzi": [
@@ -1175,6 +1185,10 @@
       {
         "char": "名",
         "date": "2026-09-02"
+      },
+      {
+        "char": "姓",
+        "date": "2026-09-03"
       }
     ]
   },
@@ -1744,6 +1758,11 @@
         "url": "https://www.hankyung.com/article/202609016889i",
         "title": "'20년 글로벌 저축 과잉' 시대 끝…AI·방산 투자전쟁에 국채 금리도 뛴다",
         "date": "2026-09-02"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026090206161",
+        "title": "글로벌 국채금리 '연쇄 쇼크'",
+        "date": "2026-09-03"
       }
     ]
   }
