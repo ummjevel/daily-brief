@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-09-04T07:56:00.143824+09:00",
+  "last_run": "2026-09-07T07:35:33.792737+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -46,6 +46,10 @@
       {
         "phrase": "I'll own this.",
         "date": "2026-09-04"
+      },
+      {
+        "phrase": "loop someone in",
+        "date": "2026-09-07"
       }
     ]
   },
@@ -741,6 +745,12 @@
         "pinyin": "Wǒ shì nán shēng",
         "category": "자기소개",
         "date": "2026-09-04"
+      },
+      {
+        "sentence": "我是新人",
+        "pinyin": "Wǒ shì xīnrén",
+        "category": "자기소개",
+        "date": "2026-09-07"
       }
     ],
     "covered_hanzi": [
@@ -1203,6 +1213,10 @@
       {
         "char": "男",
         "date": "2026-09-04"
+      },
+      {
+        "char": "新",
+        "date": "2026-09-07"
       }
     ]
   },
@@ -1782,6 +1796,11 @@
         "url": "https://www.hankyung.com/article/202609033160i",
         "title": "삼전닉스에 25조 손 벌린 한전…전력망 투자 이대로 괜찮나 [여기는 논설실]",
         "date": "2026-09-04"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026090669271",
+        "title": "AI 열풍에…세계 4번째 '수출 1조달러 클럽' 보인다",
+        "date": "2026-09-07"
       }
     ]
   }
