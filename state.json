@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-09-07T07:35:33.792737+09:00",
+  "last_run": "2026-09-08T08:12:21.644752+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -50,6 +50,10 @@
       {
         "phrase": "loop someone in",
         "date": "2026-09-07"
+      },
+      {
+        "phrase": "I'm not sold on this.",
+        "date": "2026-09-08"
       }
     ]
   },
@@ -751,6 +755,12 @@
         "pinyin": "Wǒ shì xīnrén",
         "category": "자기소개",
         "date": "2026-09-07"
+      },
+      {
+        "sentence": "我十八岁",
+        "pinyin": "Wǒ shíbā suì",
+        "category": "숫자·나이",
+        "date": "2026-09-08"
       }
     ],
     "covered_hanzi": [
@@ -1217,6 +1227,10 @@
       {
         "char": "新",
         "date": "2026-09-07"
+      },
+      {
+        "char": "十",
+        "date": "2026-09-08"
       }
     ]
   },
@@ -1801,6 +1815,11 @@
         "url": "https://www.hankyung.com/article/2026090669271",
         "title": "AI 열풍에…세계 4번째 '수출 1조달러 클럽' 보인다",
         "date": "2026-09-07"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202609089917H",
+        "title": "대출 21% 늘 때 연체 120% 급증…무너지는 '영끌' 집주인들",
+        "date": "2026-09-08"
       }
     ]
   }
