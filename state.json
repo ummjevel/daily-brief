@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-09-11T07:53:22.368899+09:00",
+  "last_run": "2026-09-14T07:46:20.571583+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -66,6 +66,10 @@
       {
         "phrase": "Can we double-click on that?",
         "date": "2026-09-11"
+      },
+      {
+        "phrase": "Let's stress-test this.",
+        "date": "2026-09-14"
       }
     ]
   },
@@ -791,6 +795,12 @@
         "pinyin": "liǎng gè rén",
         "category": "숫자·나이",
         "date": "2026-09-11"
+      },
+      {
+        "sentence": "一百岁",
+        "pinyin": "yìbǎi suì",
+        "category": "숫자·나이",
+        "date": "2026-09-14"
       }
     ],
     "covered_hanzi": [
@@ -1273,6 +1283,10 @@
       {
         "char": "两",
         "date": "2026-09-11"
+      },
+      {
+        "char": "百",
+        "date": "2026-09-14"
       }
     ]
   },
@@ -1877,6 +1891,11 @@
         "url": "https://www.hankyung.com/article/2026091074021",
         "title": "전쟁·AI·약달러가 불붙였다…이례적 원자재 '에브리싱 랠리'",
         "date": "2026-09-11"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026091313181",
+        "title": "금통위 의사록 공개…2연속 금리인상 속내는",
+        "date": "2026-09-14"
       }
     ]
   }
