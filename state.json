@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-09-15T08:41:00.859400+09:00",
+  "last_run": "2026-09-16T08:21:01.629070+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -74,6 +74,10 @@
       {
         "phrase": "Let's not reinvent the wheel.",
         "date": "2026-09-15"
+      },
+      {
+        "phrase": "Let's de-risk this before we ship.",
+        "date": "2026-09-16"
       }
     ]
   },
@@ -811,6 +815,12 @@
         "pinyin": "Zhè shì nǎinai",
         "category": "가족",
         "date": "2026-09-15"
+      },
+      {
+        "sentence": "我爱爸爸",
+        "pinyin": "Wǒ ài bàba",
+        "category": "가족",
+        "date": "2026-09-16"
       }
     ],
     "covered_hanzi": [
@@ -1301,6 +1311,10 @@
       {
         "char": "奶",
         "date": "2026-09-15"
+      },
+      {
+        "char": "爱",
+        "date": "2026-09-16"
       }
     ]
   },
@@ -1915,6 +1929,11 @@
         "url": "https://www.hankyung.com/article/2026091436246",
         "title": "그림·한우 넘어 채권·펀드로…토큰증권, 내년 2월부터 판 커진다 [분석+]",
         "date": "2026-09-15"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202609156867i",
+        "title": "\"AI에 돈 얼마나 들길래\"…빅테크가 앞다퉈 '빚' 늘리는 이유 [김주완의 글로벌 머니 X파일]",
+        "date": "2026-09-16"
       }
     ]
   }
