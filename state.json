@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-09-23T08:24:37.064234+09:00",
+  "last_run": "2026-09-24T08:22:20.660383+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -98,6 +98,10 @@
       {
         "phrase": "That's a nice-to-have, not a must-have.",
         "date": "2026-09-23"
+      },
+      {
+        "phrase": "Let's align on...",
+        "date": "2026-09-24"
       }
     ]
   },
@@ -871,6 +875,12 @@
         "pinyin": "Wǒ yào tāng",
         "category": "음식·식당",
         "date": "2026-09-23"
+      },
+      {
+        "sentence": "面条",
+        "pinyin": "miàn tiáo",
+        "category": "음식·식당",
+        "date": "2026-09-24"
       }
     ],
     "covered_hanzi": [
@@ -1385,6 +1395,10 @@
       {
         "char": "汤",
         "date": "2026-09-23"
+      },
+      {
+        "char": "条",
+        "date": "2026-09-24"
       }
     ]
   },
@@ -2029,6 +2043,11 @@
         "url": "https://www.hankyung.com/article/2026092217441",
         "title": "고유가 지원금 지출 느는데, 고금리 덮쳐…각국 재정 경고음",
         "date": "2026-09-23"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202609233495i",
+        "title": "AI 입혀 매출 30조위안으로…中 경공업 성장 공식 바꾼다 [차이나 워치]",
+        "date": "2026-09-24"
       }
     ]
   }
