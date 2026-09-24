@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-09-24T08:22:20.660383+09:00",
+  "last_run": "2026-09-25T08:42:53.451686+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -102,6 +102,10 @@
       {
         "phrase": "Let's align on...",
         "date": "2026-09-24"
+      },
+      {
+        "phrase": "Can we scope this down?",
+        "date": "2026-09-25"
       }
     ]
   },
@@ -881,6 +885,12 @@
         "pinyin": "miàn tiáo",
         "category": "음식·식당",
         "date": "2026-09-24"
+      },
+      {
+        "sentence": "要菜单",
+        "pinyin": "yào càidān",
+        "category": "음식·식당",
+        "date": "2026-09-25"
       }
     ],
     "covered_hanzi": [
@@ -1399,6 +1409,10 @@
       {
         "char": "条",
         "date": "2026-09-24"
+      },
+      {
+        "char": "单",
+        "date": "2026-09-25"
       }
     ]
   },
@@ -2048,6 +2062,11 @@
         "url": "https://www.hankyung.com/article/202609233495i",
         "title": "AI 입혀 매출 30조위안으로…中 경공업 성장 공식 바꾼다 [차이나 워치]",
         "date": "2026-09-24"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202609245261i",
+        "title": "美 30年물 국채 수익률 5.44%…저금리시대 종말 신호",
+        "date": "2026-09-25"
       }
     ]
   }
