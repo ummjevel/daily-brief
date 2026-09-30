@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-09-29T09:46:30.944917+09:00",
+  "last_run": "2026-09-30T09:02:06.570617+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -114,6 +114,10 @@
       {
         "phrase": "That's on my radar",
         "date": "2026-09-29"
+      },
+      {
+        "phrase": "paint ourselves into a corner",
+        "date": "2026-09-30"
       }
     ]
   },
@@ -911,6 +915,12 @@
         "pinyin": "zhōngwǔ",
         "category": "시간·날짜",
         "date": "2026-09-29"
+      },
+      {
+        "sentence": "下午三点",
+        "pinyin": "xiàwǔ sān diǎn",
+        "category": "시간·날짜",
+        "date": "2026-09-30"
       }
     ],
     "covered_hanzi": [
@@ -1441,6 +1451,10 @@
       {
         "char": "中",
         "date": "2026-09-29"
+      },
+      {
+        "char": "午",
+        "date": "2026-09-30"
       }
     ]
   },
@@ -2105,6 +2119,11 @@
         "url": "https://www.hankyung.com/article/2026092800371",
         "title": "\"석유 한 방울 안 나는 게 다행?\"…'자원의 저주' 뭐길래",
         "date": "2026-09-29"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202609289895i",
+        "title": "4000억달러 특허절벽…빅파마 '블록버스터 공식' 깨진다 [김주완의 글로벌머니 X파일]",
+        "date": "2026-09-30"
       }
     ]
   }
