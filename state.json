@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-09-30T09:02:06.570617+09:00",
+  "last_run": "2026-10-01T09:17:33.049099+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -118,6 +118,10 @@
       {
         "phrase": "paint ourselves into a corner",
         "date": "2026-09-30"
+      },
+      {
+        "phrase": "Let's not boil the ocean.",
+        "date": "2026-10-01"
       }
     ]
   },
@@ -921,6 +925,12 @@
         "pinyin": "xiàwǔ sān diǎn",
         "category": "시간·날짜",
         "date": "2026-09-30"
+      },
+      {
+        "sentence": "两点半",
+        "pinyin": "liǎng diǎn bàn",
+        "category": "시간·날짜",
+        "date": "2026-10-01"
       }
     ],
     "covered_hanzi": [
@@ -1455,6 +1465,10 @@
       {
         "char": "午",
         "date": "2026-09-30"
+      },
+      {
+        "char": "半",
+        "date": "2026-10-01"
       }
     ]
   },
@@ -2124,6 +2138,11 @@
         "url": "https://www.hankyung.com/article/202609289895i",
         "title": "4000억달러 특허절벽…빅파마 '블록버스터 공식' 깨진다 [김주완의 글로벌머니 X파일]",
         "date": "2026-09-30"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026093056651",
+        "title": "'코로나 후 긴축' 닮아가는 글로벌 금리…韓도 3.5% 갈까",
+        "date": "2026-10-01"
       }
     ]
   }
