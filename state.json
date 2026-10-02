@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-01T09:17:33.049099+09:00",
+  "last_run": "2026-10-02T09:22:26.430666+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -122,6 +122,10 @@
       {
         "phrase": "Let's not boil the ocean.",
         "date": "2026-10-01"
+      },
+      {
+        "phrase": "I don't have strong feelings either way.",
+        "date": "2026-10-02"
       }
     ]
   },
@@ -931,6 +935,12 @@
         "pinyin": "liǎng diǎn bàn",
         "category": "시간·날짜",
         "date": "2026-10-01"
+      },
+      {
+        "sentence": "三点十分",
+        "pinyin": "sān diǎn shí fēn",
+        "category": "시간·날짜",
+        "date": "2026-10-02"
       }
     ],
     "covered_hanzi": [
@@ -1469,6 +1479,10 @@
       {
         "char": "半",
         "date": "2026-10-01"
+      },
+      {
+        "char": "分",
+        "date": "2026-10-02"
       }
     ]
   },
@@ -2143,6 +2157,11 @@
         "url": "https://www.hankyung.com/article/2026093056651",
         "title": "'코로나 후 긴축' 닮아가는 글로벌 금리…韓도 3.5% 갈까",
         "date": "2026-10-01"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202610018739i",
+        "title": "美 10년물 국채금리 5.34% \"24년만에 최고\"…전세계 채권 수익률 일제 급등 왜?",
+        "date": "2026-10-02"
       }
     ]
   }
