@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-02T09:22:26.430666+09:00",
+  "last_run": "2026-10-05T08:44:31.449241+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -126,6 +126,10 @@
       {
         "phrase": "I don't have strong feelings either way.",
         "date": "2026-10-02"
+      },
+      {
+        "phrase": "Let's make sure we're comparing apples to apples.",
+        "date": "2026-10-05"
       }
     ]
   },
@@ -941,6 +945,12 @@
         "pinyin": "sān diǎn shí fēn",
         "category": "시간·날짜",
         "date": "2026-10-02"
+      },
+      {
+        "sentence": "周末",
+        "pinyin": "zhōu mò",
+        "category": "시간·날짜",
+        "date": "2026-10-05"
       }
     ],
     "covered_hanzi": [
@@ -1483,6 +1493,10 @@
       {
         "char": "分",
         "date": "2026-10-02"
+      },
+      {
+        "char": "末",
+        "date": "2026-10-05"
       }
     ]
   },
@@ -2162,6 +2176,11 @@
         "url": "https://www.hankyung.com/article/202610018739i",
         "title": "美 10년물 국채금리 5.34% \"24년만에 최고\"…전세계 채권 수익률 일제 급등 왜?",
         "date": "2026-10-02"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026100426371",
+        "title": "\"세수 들쭉날쭉한데 지출은 안 줄어…200조 미래기금 지속가능성 우려\"",
+        "date": "2026-10-05"
       }
     ]
   }
