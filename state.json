@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-06T10:43:03.313054+09:00",
+  "last_run": "2026-10-07T09:15:48.121042+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -134,6 +134,10 @@
       {
         "phrase": "That's going to come back to bite us.",
         "date": "2026-10-06"
+      },
+      {
+        "phrase": "That's on me.",
+        "date": "2026-10-07"
       }
     ]
   },
@@ -961,6 +965,12 @@
         "pinyin": "hěn yuǎn",
         "category": "위치·방향",
         "date": "2026-10-06"
+      },
+      {
+        "sentence": "中间",
+        "pinyin": "zhōngjiān",
+        "category": "위치·방향",
+        "date": "2026-10-07"
       }
     ],
     "covered_hanzi": [
@@ -1511,6 +1521,10 @@
       {
         "char": "远",
         "date": "2026-10-06"
+      },
+      {
+        "char": "间",
+        "date": "2026-10-07"
       }
     ]
   },
@@ -2200,6 +2214,11 @@
         "url": "https://www.hankyung.com/article/202610053994i",
         "title": "美 서비스 물가 4년 만에 최고치…고용도 다시 확장세",
         "date": "2026-10-06"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202610066688i",
+        "title": "美 8월 무역적자 142조원…트럼프 관세 폭탄 이후 최대",
+        "date": "2026-10-07"
       }
     ]
   }
