@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-07T09:15:48.121042+09:00",
+  "last_run": "2026-10-08T09:36:40.149629+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -138,6 +138,10 @@
       {
         "phrase": "That's on me.",
         "date": "2026-10-07"
+      },
+      {
+        "phrase": "overindex on X",
+        "date": "2026-10-08"
       }
     ]
   },
@@ -971,6 +975,12 @@
         "pinyin": "zhōngjiān",
         "category": "위치·방향",
         "date": "2026-10-07"
+      },
+      {
+        "sentence": "北边",
+        "pinyin": "běibiān",
+        "category": "위치·방향",
+        "date": "2026-10-08"
       }
     ],
     "covered_hanzi": [
@@ -1525,6 +1535,10 @@
       {
         "char": "间",
         "date": "2026-10-07"
+      },
+      {
+        "char": "北",
+        "date": "2026-10-08"
       }
     ]
   },
@@ -2219,6 +2233,11 @@
         "url": "https://www.hankyung.com/article/202610066688i",
         "title": "美 8월 무역적자 142조원…트럼프 관세 폭탄 이후 최대",
         "date": "2026-10-07"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202610079499i",
+        "title": "美 10년물 국채 5.35%로 또 24년 만에 최고…인플레·재정우려에 국채 투매",
+        "date": "2026-10-08"
       }
     ]
   }
