@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-09T09:52:22.582988+09:00",
+  "last_run": "2026-10-12T09:08:04.771808+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -146,6 +146,10 @@
       {
         "phrase": "That's a judgment call.",
         "date": "2026-10-09"
+      },
+      {
+        "phrase": "Let's make sure we're on the same page.",
+        "date": "2026-10-12"
       }
     ]
   },
@@ -991,6 +995,12 @@
         "pinyin": "nán biān",
         "category": "위치·방향",
         "date": "2026-10-09"
+      },
+      {
+        "sentence": "往前走",
+        "pinyin": "wǎng qián zǒu",
+        "category": "위치·방향",
+        "date": "2026-10-12"
       }
     ],
     "covered_hanzi": [
@@ -1553,6 +1563,10 @@
       {
         "char": "南",
         "date": "2026-10-09"
+      },
+      {
+        "char": "走",
+        "date": "2026-10-12"
       }
     ]
   },
@@ -2257,6 +2271,11 @@
         "url": "https://www.hankyung.com/article/202610081207i",
         "title": "사업 분할 피한 구글, 광고 경매 개방…수수료 경쟁 본격화 [김주완의 글로벌머니 X파일]",
         "date": "2026-10-09"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026101144961",
+        "title": "근로시간 단축의 역설…초과근무 되레 늘었다",
+        "date": "2026-10-12"
       }
     ]
   }
