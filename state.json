@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-13T11:21:01.820030+09:00",
+  "last_run": "2026-10-14T09:04:00.125165+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -154,6 +154,10 @@
       {
         "phrase": "That's going to be a heavy lift.",
         "date": "2026-10-13"
+      },
+      {
+        "phrase": "Let's not conflate X and Y",
+        "date": "2026-10-14"
       }
     ]
   },
@@ -1011,6 +1015,12 @@
         "pinyin": "wǒ gòu wù",
         "category": "쇼핑·돈",
         "date": "2026-10-13"
+      },
+      {
+        "sentence": "换钱",
+        "pinyin": "huàn qián",
+        "category": "쇼핑·돈",
+        "date": "2026-10-14"
       }
     ],
     "covered_hanzi": [
@@ -1581,6 +1591,10 @@
       {
         "char": "购",
         "date": "2026-10-13"
+      },
+      {
+        "char": "换",
+        "date": "2026-10-14"
       }
     ]
   },
@@ -2295,6 +2309,11 @@
         "url": "https://www.hankyung.com/article/202610127076i",
         "title": "반도체 슈퍼호황이 연 4만달러 시대…개혁의 절박함 지우고 있다 [여기는 논설실]",
         "date": "2026-10-13"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202610140260i",
+        "title": "아시아 기업부채 21.4%가 좀비기업에…IMF 금융위험 경고",
+        "date": "2026-10-14"
       }
     ]
   }
