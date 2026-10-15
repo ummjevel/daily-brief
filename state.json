@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-15T08:34:08.366241+09:00",
+  "last_run": "2026-10-16T08:27:57.957211+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -162,6 +162,10 @@
       {
         "phrase": "That's going to be table stakes.",
         "date": "2026-10-15"
+      },
+      {
+        "phrase": "I'll hold off on that for now.",
+        "date": "2026-10-16"
       }
     ]
   },
@@ -1031,6 +1035,12 @@
         "pinyin": "gěi nǐ qián",
         "category": "쇼핑·돈",
         "date": "2026-10-15"
+      },
+      {
+        "sentence": "免费",
+        "pinyin": "miǎn fèi",
+        "category": "쇼핑·돈",
+        "date": "2026-10-16"
       }
     ],
     "covered_hanzi": [
@@ -1609,6 +1619,10 @@
       {
         "char": "钱",
         "date": "2026-10-15"
+      },
+      {
+        "char": "免",
+        "date": "2026-10-16"
       }
     ]
   },
@@ -2333,6 +2347,11 @@
         "url": "https://www.hankyung.com/article/202610140981g",
         "title": "\"AI로 돈 쓸어 담는다더니\"…IMF가 경고한 이유 [분석+]",
         "date": "2026-10-15"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202610154868g",
+        "title": "\"돈 쏟아부었는데 어쩌나…4700조 AI 투자에 섬뜩한 '경고' [분석+]\"",
+        "date": "2026-10-16"
       }
     ]
   }
