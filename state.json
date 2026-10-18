@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-16T08:27:57.957211+09:00",
+  "last_run": "2026-10-19T07:42:39.032577+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -166,6 +166,10 @@
       {
         "phrase": "I'll hold off on that for now.",
         "date": "2026-10-16"
+      },
+      {
+        "phrase": "Let's manage expectations here.",
+        "date": "2026-10-19"
       }
     ]
   },
@@ -1041,6 +1045,12 @@
         "pinyin": "miǎn fèi",
         "category": "쇼핑·돈",
         "date": "2026-10-16"
+      },
+      {
+        "sentence": "零钱",
+        "pinyin": "líng qián",
+        "category": "쇼핑·돈",
+        "date": "2026-10-19"
       }
     ],
     "covered_hanzi": [
@@ -1623,6 +1633,10 @@
       {
         "char": "免",
         "date": "2026-10-16"
+      },
+      {
+        "char": "零",
+        "date": "2026-10-19"
       }
     ]
   },
@@ -2352,6 +2366,11 @@
         "url": "https://www.hankyung.com/article/202610154868g",
         "title": "\"돈 쏟아부었는데 어쩌나…4700조 AI 투자에 섬뜩한 '경고' [분석+]\"",
         "date": "2026-10-16"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026101889051",
+        "title": "러 에너지·中 시장·美 안보…다 잃은 유럽, 성장엔진 꺼졌다",
+        "date": "2026-10-19"
       }
     ]
   }
