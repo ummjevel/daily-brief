@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-20T09:04:11.406707+09:00",
+  "last_run": "2026-10-21T08:34:20.801354+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -174,6 +174,10 @@
       {
         "phrase": "separate the signal from the noise",
         "date": "2026-10-20"
+      },
+      {
+        "phrase": "Let's not put the cart before the horse",
+        "date": "2026-10-21"
       }
     ]
   },
@@ -1061,6 +1065,12 @@
         "pinyin": "huānyíng guānglín",
         "category": "인사",
         "date": "2026-10-20"
+      },
+      {
+        "sentence": "欢迎你",
+        "pinyin": "huān yíng nǐ",
+        "category": "인사",
+        "date": "2026-10-21"
       }
     ],
     "covered_hanzi": [
@@ -1651,6 +1661,10 @@
       {
         "char": "光",
         "date": "2026-10-20"
+      },
+      {
+        "char": "欢",
+        "date": "2026-10-21"
       }
     ]
   },
@@ -2390,6 +2404,11 @@
         "url": "https://www.hankyung.com/article/202610191780i",
         "title": "\"돈 풀면 국가부도, 돈 줄이면 폭동\"…진퇴양난 프랑스 국가부채",
         "date": "2026-10-20"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026102041591",
+        "title": "佛 채권금리 年 5% 육박…재정위기 초기 그리스 넘어",
+        "date": "2026-10-21"
       }
     ]
   }
