@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-21T08:34:20.801354+09:00",
+  "last_run": "2026-10-22T08:50:34.195600+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -178,6 +178,10 @@
       {
         "phrase": "Let's not put the cart before the horse",
         "date": "2026-10-21"
+      },
+      {
+        "phrase": "That's a red flag.",
+        "date": "2026-10-22"
       }
     ]
   },
@@ -1071,6 +1075,12 @@
         "pinyin": "huān yíng nǐ",
         "category": "인사",
         "date": "2026-10-21"
+      },
+      {
+        "sentence": "保重",
+        "pinyin": "bǎo zhòng",
+        "category": "인사",
+        "date": "2026-10-22"
       }
     ],
     "covered_hanzi": [
@@ -1665,6 +1675,10 @@
       {
         "char": "欢",
         "date": "2026-10-21"
+      },
+      {
+        "char": "保",
+        "date": "2026-10-22"
       }
     ]
   },
@@ -2409,6 +2423,11 @@
         "url": "https://www.hankyung.com/article/2026102041591",
         "title": "佛 채권금리 年 5% 육박…재정위기 초기 그리스 넘어",
         "date": "2026-10-21"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202610217106i",
+        "title": "그리스 사태보다 더 심각할 수도…5% 넘은 프랑스 국채 폭락에 경고",
+        "date": "2026-10-22"
       }
     ]
   }
