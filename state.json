@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-23T08:48:20.961946+09:00",
+  "last_run": "2026-10-26T07:57:21.554692+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -186,6 +186,10 @@
       {
         "phrase": "Let's not let perfect be the enemy of good.",
         "date": "2026-10-23"
+      },
+      {
+        "phrase": "Let's not bikeshed this.",
+        "date": "2026-10-26"
       }
     ]
   },
@@ -1091,6 +1095,12 @@
         "pinyin": "zhù nǐ hǎo yùn",
         "category": "인사",
         "date": "2026-10-23"
+      },
+      {
+        "sentence": "再会",
+        "pinyin": "zài huì",
+        "category": "인사",
+        "date": "2026-10-26"
       }
     ],
     "covered_hanzi": [
@@ -1693,6 +1703,10 @@
       {
         "char": "祝",
         "date": "2026-10-23"
+      },
+      {
+        "char": "会",
+        "date": "2026-10-26"
       }
     ]
   },
@@ -2447,6 +2461,11 @@
         "url": "https://www.hankyung.com/article/2026102294751",
         "title": "7·8월 금리 올린 한은, 이번엔 숨 고르기…시장은 11월 인상 무게",
         "date": "2026-10-23"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202610253648i",
+        "title": "\"일본·독일도 한국 밑\"…반도체 호황에 경상수지 '세계 2위'",
+        "date": "2026-10-26"
       }
     ]
   }
