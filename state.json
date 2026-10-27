@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-26T07:57:21.554692+09:00",
+  "last_run": "2026-10-27T09:10:25.529689+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -190,6 +190,10 @@
       {
         "phrase": "Let's not bikeshed this.",
         "date": "2026-10-26"
+      },
+      {
+        "phrase": "Let's see how the dust settles",
+        "date": "2026-10-27"
       }
     ]
   },
@@ -1101,6 +1105,12 @@
         "pinyin": "zài huì",
         "category": "인사",
         "date": "2026-10-26"
+      },
+      {
+        "sentence": "我住首尔",
+        "pinyin": "Wǒ zhù Shǒu'ěr",
+        "category": "자기소개",
+        "date": "2026-10-27"
       }
     ],
     "covered_hanzi": [
@@ -1707,6 +1717,10 @@
       {
         "char": "会",
         "date": "2026-10-26"
+      },
+      {
+        "char": "住",
+        "date": "2026-10-27"
       }
     ]
   },
@@ -2466,6 +2480,11 @@
         "url": "https://www.hankyung.com/article/202610253648i",
         "title": "\"일본·독일도 한국 밑\"…반도체 호황에 경상수지 '세계 2위'",
         "date": "2026-10-26"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026102660711",
+        "title": "삼전닉스가 버는 2600조가 저주?…한국 덮친 '섬뜩한 경고'",
+        "date": "2026-10-27"
       }
     ]
   }
