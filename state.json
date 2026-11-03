@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-11-02T09:04:31.572321+09:00",
+  "last_run": "2026-11-03T11:44:50.515681+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -210,6 +210,10 @@
       {
         "phrase": "Let's take a step back",
         "date": "2026-11-02"
+      },
+      {
+        "phrase": "What's the blast radius?",
+        "date": "2026-11-03"
       }
     ]
   },
@@ -1151,6 +1155,12 @@
         "pinyin": "Wǒ shì dānshēn",
         "category": "자기소개",
         "date": "2026-11-02"
+      },
+      {
+        "sentence": "数字",
+        "pinyin": "shù zì",
+        "category": "숫자·나이",
+        "date": "2026-11-03"
       }
     ],
     "covered_hanzi": [
@@ -1777,6 +1787,10 @@
       {
         "char": "身",
         "date": "2026-11-02"
+      },
+      {
+        "char": "字",
+        "date": "2026-11-03"
       }
     ]
   },
@@ -2561,6 +2575,11 @@
         "url": "https://www.hankyung.com/article/202611029000i",
         "title": "유럽 정크채권 수익률 21% 돌파…신용시장 충격 확산",
         "date": "2026-11-02"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202611031770i",
+        "title": "美·유럽 증시 숨은 위험 증가…AI·금리·전쟁 불안 겹쳐",
+        "date": "2026-11-03"
       }
     ]
   }
