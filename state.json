@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-11-03T11:44:50.515681+09:00",
+  "last_run": "2026-11-04T10:00:20.378106+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -214,6 +214,10 @@
       {
         "phrase": "What's the blast radius?",
         "date": "2026-11-03"
+      },
+      {
+        "phrase": "Let's socialize this with the team",
+        "date": "2026-11-04"
       }
     ]
   },
@@ -1161,6 +1165,12 @@
         "pinyin": "shù zì",
         "category": "숫자·나이",
         "date": "2026-11-03"
+      },
+      {
+        "sentence": "年龄",
+        "pinyin": "nián líng",
+        "category": "숫자·나이",
+        "date": "2026-11-04"
       }
     ],
     "covered_hanzi": [
@@ -1791,6 +1801,10 @@
       {
         "char": "字",
         "date": "2026-11-03"
+      },
+      {
+        "char": "龄",
+        "date": "2026-11-04"
       }
     ]
   },
@@ -2580,6 +2594,11 @@
         "url": "https://www.hankyung.com/article/202611031770i",
         "title": "美·유럽 증시 숨은 위험 증가…AI·금리·전쟁 불안 겹쳐",
         "date": "2026-11-03"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026110337651",
+        "title": "연구직 늘리고 생산직 줄여…AI시대 '4대 그룹 생존법'",
+        "date": "2026-11-04"
       }
     ]
   }
