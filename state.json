@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-11-06T10:18:56.530484+09:00",
+  "last_run": "2026-11-09T09:21:01.056875+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -226,6 +226,10 @@
       {
         "phrase": "a moving target",
         "date": "2026-11-06"
+      },
+      {
+        "phrase": "That's not going to scale.",
+        "date": "2026-11-09"
       }
     ]
   },
@@ -1191,6 +1195,12 @@
         "pinyin": "suì shu",
         "category": "숫자·나이",
         "date": "2026-11-06"
+      },
+      {
+        "sentence": "年纪",
+        "pinyin": "nián jì",
+        "category": "숫자·나이",
+        "date": "2026-11-09"
       }
     ],
     "covered_hanzi": [
@@ -1833,6 +1843,10 @@
       {
         "char": "数",
         "date": "2026-11-06"
+      },
+      {
+        "char": "纪",
+        "date": "2026-11-09"
       }
     ]
   },
@@ -2637,6 +2651,11 @@
         "url": "https://www.hankyung.com/article/202611069883i",
         "title": "이란 전쟁에 유로존 물가 4% 급등…ECB 추가 금리인상 관측",
         "date": "2026-11-06"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026110833121",
+        "title": "경제지표와 체감경기 괴리 '사상 최대'",
+        "date": "2026-11-09"
       }
     ]
   }
