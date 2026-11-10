@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-11-09T09:21:01.056875+09:00",
+  "last_run": "2026-11-10T12:05:41.535444+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -230,6 +230,10 @@
       {
         "phrase": "That's not going to scale.",
         "date": "2026-11-09"
+      },
+      {
+        "phrase": "Let's not rubber-stamp this.",
+        "date": "2026-11-10"
       }
     ]
   },
@@ -1201,6 +1205,12 @@
         "pinyin": "nián jì",
         "category": "숫자·나이",
         "date": "2026-11-09"
+      },
+      {
+        "sentence": "这是孩子",
+        "pinyin": "Zhè shì háizi",
+        "category": "가족",
+        "date": "2026-11-10"
       }
     ],
     "covered_hanzi": [
@@ -1847,6 +1857,10 @@
       {
         "char": "纪",
         "date": "2026-11-09"
+      },
+      {
+        "char": "子",
+        "date": "2026-11-10"
       }
     ]
   },
@@ -2656,6 +2670,11 @@
         "url": "https://www.hankyung.com/article/2026110833121",
         "title": "경제지표와 체감경기 괴리 '사상 최대'",
         "date": "2026-11-09"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202611096094i",
+        "title": "\"한국과 무역 끊기면 美 타격\"…한·미 중앙은행 석학의 경고 [심성미의 중앙은행 워치]",
+        "date": "2026-11-10"
       }
     ]
   }
