@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-11-11T09:59:07.565980+09:00",
+  "last_run": "2026-11-12T11:05:52.083328+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -238,6 +238,10 @@
       {
         "phrase": "I'll take that as an action item.",
         "date": "2026-11-11"
+      },
+      {
+        "phrase": "That's a rabbit hole.",
+        "date": "2026-11-12"
       }
     ]
   },
@@ -1221,6 +1225,12 @@
         "pinyin": "Zhè shì āyí",
         "category": "가족",
         "date": "2026-11-11"
+      },
+      {
+        "sentence": "这是外公",
+        "pinyin": "Zhè shì wàigōng",
+        "category": "가족",
+        "date": "2026-11-12"
       }
     ],
     "covered_hanzi": [
@@ -1875,6 +1885,10 @@
       {
         "char": "阿",
         "date": "2026-11-11"
+      },
+      {
+        "char": "公",
+        "date": "2026-11-12"
       }
     ]
   },
@@ -2694,6 +2708,11 @@
         "url": "https://www.hankyung.com/article/202611119077i",
         "title": "美 Fed, 4년 만에 '빅스텝' 검토…물가 고착 우려",
         "date": "2026-11-11"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202611111317i",
+        "title": "은행·증권은 토큰화 속도전…보험업계는 왜 잠잠할까 [타이거리서치 프리즘]",
+        "date": "2026-11-12"
       }
     ]
   }
