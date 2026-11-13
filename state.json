@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-11-12T11:05:52.083328+09:00",
+  "last_run": "2026-11-13T10:36:24.559294+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -242,6 +242,10 @@
       {
         "phrase": "That's a rabbit hole.",
         "date": "2026-11-12"
+      },
+      {
+        "phrase": "I'm leaning towards X",
+        "date": "2026-11-13"
       }
     ]
   },
@@ -1231,6 +1235,12 @@
         "pinyin": "Zhè shì wàigōng",
         "category": "가족",
         "date": "2026-11-12"
+      },
+      {
+        "sentence": "这是姑姑",
+        "pinyin": "Zhè shì gūgu",
+        "category": "가족",
+        "date": "2026-11-13"
       }
     ],
     "covered_hanzi": [
@@ -1889,6 +1899,10 @@
       {
         "char": "公",
         "date": "2026-11-12"
+      },
+      {
+        "char": "姑",
+        "date": "2026-11-13"
       }
     ]
   },
@@ -2713,6 +2727,11 @@
         "url": "https://www.hankyung.com/article/202611111317i",
         "title": "은행·증권은 토큰화 속도전…보험업계는 왜 잠잠할까 [타이거리서치 프리즘]",
         "date": "2026-11-12"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202611134205i",
+        "title": "[밤 사이 해외 뉴스 영상]\"AI 거품 터지면 세계 경제 침체 막을 길 없다\"… 월가 이코노미스트의 섬뜩한 경고",
+        "date": "2026-11-13"
       }
     ]
   }
