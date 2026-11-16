@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-11-13T10:36:24.559294+09:00",
+  "last_run": "2026-11-16T09:33:55.921518+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -246,6 +246,10 @@
       {
         "phrase": "I'm leaning towards X",
         "date": "2026-11-13"
+      },
+      {
+        "phrase": "I'll keep an eye on it.",
+        "date": "2026-11-16"
       }
     ]
   },
@@ -1241,6 +1245,12 @@
         "pinyin": "Zhè shì gūgu",
         "category": "가족",
         "date": "2026-11-13"
+      },
+      {
+        "sentence": "你家几口人?",
+        "pinyin": "Nǐ jiā jǐ kǒu rén?",
+        "category": "가족",
+        "date": "2026-11-16"
       }
     ],
     "covered_hanzi": [
@@ -1903,6 +1913,10 @@
       {
         "char": "姑",
         "date": "2026-11-13"
+      },
+      {
+        "char": "口",
+        "date": "2026-11-16"
       }
     ]
   },
@@ -2732,6 +2746,11 @@
         "url": "https://www.hankyung.com/article/202611134205i",
         "title": "[밤 사이 해외 뉴스 영상]\"AI 거품 터지면 세계 경제 침체 막을 길 없다\"… 월가 이코노미스트의 섬뜩한 경고",
         "date": "2026-11-13"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202611168084i",
+        "title": "AI 투자는 55% 늘었는데 나머지는 3%…美 성장의 두 얼굴",
+        "date": "2026-11-16"
       }
     ]
   }
