@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-11-17T12:20:22.498822+09:00",
+  "last_run": "2026-11-18T11:41:51.266097+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -254,6 +254,10 @@
       {
         "phrase": "Let's draw a line in the sand on X.",
         "date": "2026-11-17"
+      },
+      {
+        "phrase": "That's a good problem to have.",
+        "date": "2026-11-18"
       }
     ]
   },
@@ -1261,6 +1265,12 @@
         "pinyin": "wǒ yào diǎn cài",
         "category": "음식·식당",
         "date": "2026-11-17"
+      },
+      {
+        "sentence": "打包",
+        "pinyin": "dǎ bāo",
+        "category": "음식·식당",
+        "date": "2026-11-18"
       }
     ],
     "covered_hanzi": [
@@ -1931,6 +1941,10 @@
       {
         "char": "菜",
         "date": "2026-11-17"
+      },
+      {
+        "char": "包",
+        "date": "2026-11-18"
       }
     ]
   },
@@ -2770,6 +2784,11 @@
         "url": "https://www.hankyung.com/article/202611170926i",
         "title": "\"한국 다음 30년, '이것'에 달려있다\"…OECD 국장의 진단",
         "date": "2026-11-17"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202611183482i",
+        "title": "ECB, AI 과열 경고…\"거품 꺼지면 금융시장 연쇄 충격\"",
+        "date": "2026-11-18"
       }
     ]
   }
