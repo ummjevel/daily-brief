@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-11-19T11:09:31.156362+09:00",
+  "last_run": "2026-11-20T10:59:28.932589+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -262,6 +262,10 @@
       {
         "phrase": "kick the can down the road",
         "date": "2026-11-19"
+      },
+      {
+        "phrase": "That's just a stopgap",
+        "date": "2026-11-20"
       }
     ]
   },
@@ -1281,6 +1285,12 @@
         "pinyin": "hěn tián",
         "category": "음식·식당",
         "date": "2026-11-19"
+      },
+      {
+        "sentence": "我要茶",
+        "pinyin": "Wǒ yào chá",
+        "category": "음식·식당",
+        "date": "2026-11-20"
       }
     ],
     "covered_hanzi": [
@@ -1959,6 +1969,10 @@
       {
         "char": "甜",
         "date": "2026-11-19"
+      },
+      {
+        "char": "茶",
+        "date": "2026-11-20"
       }
     ]
   },
@@ -2808,6 +2822,11 @@
         "url": "https://www.hankyung.com/article/202611196243i",
         "title": "빅테크 숨은 약정 4조달러…ECB, AI 금융버블 경고",
         "date": "2026-11-19"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202611209467i",
+        "title": "러시아 에너지 끊었더니 중국산에 종속…유럽 '친환경 딜레마'",
+        "date": "2026-11-20"
       }
     ]
   }
