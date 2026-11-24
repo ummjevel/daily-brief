@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-11-23T10:16:23.294140+09:00",
+  "last_run": "2026-11-24T14:05:08.015076+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -270,6 +270,10 @@
       {
         "phrase": "That's a fair point, but...",
         "date": "2026-11-23"
+      },
+      {
+        "phrase": "get this over the line",
+        "date": "2026-11-24"
       }
     ]
   },
@@ -1301,6 +1305,12 @@
         "pinyin": "bú yào là",
         "category": "음식·식당",
         "date": "2026-11-23"
+      },
+      {
+        "sentence": "一个小时",
+        "pinyin": "yí gè xiǎoshí",
+        "category": "시간·날짜",
+        "date": "2026-11-24"
       }
     ],
     "covered_hanzi": [
@@ -1987,6 +1997,10 @@
       {
         "char": "辣",
         "date": "2026-11-23"
+      },
+      {
+        "char": "时",
+        "date": "2026-11-24"
       }
     ]
   },
@@ -2846,6 +2860,11 @@
         "url": "https://www.hankyung.com/article/2026112224871",
         "title": "확 바뀌는 전력시장…전국 단일가 풀고 발전사끼리 가격경쟁",
         "date": "2026-11-23"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026112348951",
+        "title": "이민자가 일자리에 미치는 영향…경제학의 결론은?",
+        "date": "2026-11-24"
       }
     ]
   }
