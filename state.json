@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-11-24T14:05:08.015076+09:00",
+  "last_run": "2026-11-25T12:54:26.718715+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -274,6 +274,10 @@
       {
         "phrase": "get this over the line",
         "date": "2026-11-24"
+      },
+      {
+        "phrase": "Let's make X the source of truth",
+        "date": "2026-11-25"
       }
     ]
   },
@@ -1311,6 +1315,12 @@
         "pinyin": "yí gè xiǎoshí",
         "category": "시간·날짜",
         "date": "2026-11-24"
+      },
+      {
+        "sentence": "半夜",
+        "pinyin": "bàn yè",
+        "category": "시간·날짜",
+        "date": "2026-11-25"
       }
     ],
     "covered_hanzi": [
@@ -2001,6 +2011,10 @@
       {
         "char": "时",
         "date": "2026-11-24"
+      },
+      {
+        "char": "夜",
+        "date": "2026-11-25"
       }
     ]
   },
@@ -2865,6 +2879,11 @@
         "url": "https://www.hankyung.com/article/2026112348951",
         "title": "이민자가 일자리에 미치는 영향…경제학의 결론은?",
         "date": "2026-11-24"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202611258895i",
+        "title": "반도체가 바꾼 성장률 계산법…한은, 내년 전망치 대폭 상향하나 [심성미의 중앙은행 워치]",
+        "date": "2026-11-25"
       }
     ]
   }
