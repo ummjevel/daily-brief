@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-11-26T12:20:09.637986+09:00",
+  "last_run": "2026-11-27T12:25:04.279174+09:00",
   "english": {
     "covered_phrases": [
       {
@@ -282,6 +282,10 @@
       {
         "phrase": "I'm blocked on X",
         "date": "2026-11-26"
+      },
+      {
+        "phrase": "Let's not put all our eggs in one basket",
+        "date": "2026-11-27"
       }
     ]
   },
@@ -1331,6 +1335,12 @@
         "pinyin": "fēn zhōng",
         "category": "시간·날짜",
         "date": "2026-11-26"
+      },
+      {
+        "sentence": "现在几点？",
+        "pinyin": "Xiànzài jǐ diǎn?",
+        "category": "시간·날짜",
+        "date": "2026-11-27"
       }
     ],
     "covered_hanzi": [
@@ -2029,6 +2039,10 @@
       {
         "char": "钟",
         "date": "2026-11-26"
+      },
+      {
+        "char": "现",
+        "date": "2026-11-27"
       }
     ]
   },
@@ -2903,6 +2917,11 @@
         "url": "https://www.hankyung.com/article/202611261193i",
         "title": "\"AI 거품 붕괴 땐 닷컴버블보다 심각\"…美 경제 성장엔진 꺼지나",
         "date": "2026-11-26"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026112625776",
+        "title": "'이 시나리오면 2028년 먹구름'…한국은행이 보낸 경고 [분석+]",
+        "date": "2026-11-27"
       }
     ]
   }
